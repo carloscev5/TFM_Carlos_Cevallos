@@ -1,18 +1,42 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-if(instance_exists(obj_perro)){
+if(global.active_character == 1){
+	
+	if(instance_exists(obj_perro)){
 
-	if  obj_perro.y+obj_perro.sprite_height <= y{
+		if  obj_perro.y+obj_perro.sprite_height <= y{
 
-		solid = true;
+			solid = true;
 		
 	
-	}else{
+		}else{
 	
-		solid = false;
+			solid = false;
 	
+		}
+
 	}
 
+	
+}
+
+if(global.active_character == 2){
+	
+	if(instance_exists(obj_gato)){
+
+		if  obj_gato.y+obj_gato.sprite_height <= y{
+
+			solid = true;
+		
+	
+		}else{
+	
+			solid = false;
+	
+		}
+
+	}
+	
 }
 
 

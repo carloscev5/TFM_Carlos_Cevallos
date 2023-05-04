@@ -1,8 +1,9 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-if(global.active_character == 1){
 
-#region Verificar teclas
+if(global.active_character == 2){
+	
+	#region Verificar teclas
 der = keyboard_check(global.right) or gamepad_axis_value(global.gp, gp_axislh) > 0.25 or gamepad_button_check(global.gp, gp_padr);
 izq = keyboard_check(global.left) or gamepad_axis_value(global.gp, gp_axislh) < -0.25 or gamepad_button_check(global.gp, gp_padl);
 der_pre = keyboard_check_pressed(global.right) or gamepad_axis_value(global.gp, gp_axislh) > 0.25 or gamepad_button_check_pressed(global.gp, gp_padr);
@@ -141,11 +142,7 @@ if izq_pre{
 			vel = vi;	
 		}
 	}
-	if corr{
-		salto = 40;
-	}else{
-		salto = 36;
-	}
 #endregion
 
+	
 }

@@ -24,6 +24,7 @@
     {"name":"controls","order":3,"path":"folders/Objetos/controls.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_gato","order":1,"path":"objects/obj_gato/obj_gato.yy",},
     {"name":"obj_floor_no_solid","order":1,"path":"objects/obj_floor_no_solid/obj_floor_no_solid.yy",},
     {"name":"scr_verificar_control","order":1,"path":"scripts/scr_verificar_control/scr_verificar_control.yy",},
     {"name":"spr_floor_no_solid","order":1,"path":"sprites/spr_floor_no_solid/spr_floor_no_solid.yy",},
