@@ -103,7 +103,7 @@ if izq_pre || izq{
 	
 	global.change_character = false;
 	image_blend = c_white;
-	
+	depth = -1;
 	
 	
 }
@@ -113,6 +113,7 @@ if izq_pre || izq{
 }else{
 
 image_blend = c_gray;
+depth = 1;
 	
 }
 
