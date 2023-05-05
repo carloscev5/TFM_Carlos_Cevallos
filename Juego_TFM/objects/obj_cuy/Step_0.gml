@@ -1,8 +1,8 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-if(global.active_character == 1){
+if(global.active_character == 3){
 	
-	if(!global.change_character){
+		if(!global.change_character){
 		
 	
 
@@ -88,11 +88,13 @@ if izq_pre || izq{
 	
 #endregion
 
+/*
 #region Salto del personaje
 	if sal && (!place_free(x, y+1)){
 		vspeed = -salto;
 	}
 #endregion
+*/
 
 #region Cambiar velocidad y salto
 	if !saltando && !caer{
@@ -153,8 +155,6 @@ if izq_pre || izq{
 		salto = 36;
 	}
 #endregion
-
-
 
 }else{
 

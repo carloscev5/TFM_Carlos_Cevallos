@@ -3,6 +3,10 @@
 
 if(global.active_character == 2){
 	
+		if(!global.change_character){
+		
+	
+	
 	#region Verificar teclas
 der = keyboard_check(global.right) or gamepad_axis_value(global.gp, gp_axislh) > 0.25 or gamepad_button_check(global.gp, gp_padr);
 izq = keyboard_check(global.left) or gamepad_axis_value(global.gp, gp_axislh) < -0.25 or gamepad_button_check(global.gp, gp_padl);
@@ -14,6 +18,8 @@ sal = keyboard_check_pressed(global.jump) or gamepad_button_check_pressed(global
 corr = keyboard_check(global.run) or gamepad_button_check(global.gp, gp_face4) or gamepad_button_check(global.gp, gp_face3); 
 nsal = keyboard_check_released(global.jump) or gamepad_button_check_released(global.gp, gp_face2) or gamepad_button_check_released(global.gp, gp_face1); 
 #endregion
+
+
 
 #region Gravedad
 if place_free(x, y+1){
@@ -49,17 +55,18 @@ if vspeed < 0{
 #endregion
 
 #region Cambio direccion
-if der_pre {
+if der_pre || der{
 			
 	ld = true;
 			
 }
-if izq_pre{
+if izq_pre || izq{
 		
 	ld = false;
 			
 }
 #endregion
+
 
 #region Caminar y correr
 
@@ -89,60 +96,24 @@ if izq_pre{
 	}
 #endregion
 
-#region Cambiar velocidad y salto
-	if !saltando && !caer{
-		if corr {
-		
-			if !esta_corriendo{
-			
-				vel = vmed;
-				esta_corriendo = true;
-			
-			}
-				
-			if vel > vmax{
-				
-				vel = vmax;
-					
-			}
-		
-			if vel < vmax && (izq || der){
-		
-				vel += 1;
-			
-			}
-		
-		}
-		
-		if !corr || (ld && izq) || (!ld && der) || (!izq && !der){
-	
-			vel = vi;
-			esta_corriendo = false;
-		
-		}
-	}else{
-			
-		if vel >= vmed{
-			if ld && !der && izq{
-				vel -= 2;
-			}
-			if !ld && der && !izq{
-	
-				vel -= 2;
-			}
-		}else if vel >= vi{
-			if ld && !der && izq{
-				vel -= 2;
-			}
-			if !ld && der && !izq{
-				vel -= 2;
-			}
-			esta_corriendo = false;
-		}else{
-			vel = vi;	
-		}
-	}
-#endregion
+
 
 	
+}else{
+	
+	global.change_character = false;
+	image_blend = c_white;
+	
+	
+	
 }
+
+
+	
+}else{
+
+image_blend = c_gray;
+	
+}
+
+

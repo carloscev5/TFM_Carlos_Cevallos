@@ -7,7 +7,8 @@ if keyboard_check_pressed(ord("R")) or gamepad_button_check_pressed(global.gp, g
 
 if keyboard_check_pressed(ord("I")){
 	global.active_character++;
-	if(global.active_character == 3){
+	global.change_character = true;
+	if(global.active_character == 4){
 		
 		global.active_character = 1;
 		

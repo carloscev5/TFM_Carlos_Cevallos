@@ -39,5 +39,26 @@ if(global.active_character == 2){
 	
 }
 
+if(global.active_character == 3){
+	
+	
+	if(instance_exists(obj_cuy)){
+
+		if  obj_cuy.y+obj_cuy.sprite_height <= y{
+
+			solid = true;
+		
+	
+		}else{
+	
+			solid = false;
+	
+		}
+
+	}
+	
+}
+
+
 
 

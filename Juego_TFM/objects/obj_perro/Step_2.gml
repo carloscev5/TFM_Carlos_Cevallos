@@ -1,7 +1,7 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-xmed1 = x+(sprite_width/2)-64;
-xmed2 = x+(sprite_width/2)+64;
+xmed1 = x-65;
+xmed2 = x+65;
 
 #region Colision con floor
 if(ld){
@@ -92,3 +92,13 @@ if(ld){
 	
 }
 #endregion
+
+if(ld){
+
+	image_xscale = -1;
+	
+}else{
+	
+	image_xscale = 1;
+	
+}

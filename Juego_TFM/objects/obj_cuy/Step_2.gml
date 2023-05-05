@@ -1,10 +1,7 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-if(global.active_character == 2){
-	
-
-xmed1 = x-132;
-xmed2 = x+132;
+xmed1 = x-35;
+xmed2 = x+35;
 
 #region Colision con floor
 if(ld){
@@ -104,6 +101,4 @@ if(ld){
 	
 	image_xscale = 1;
 	
-}
-
 }
