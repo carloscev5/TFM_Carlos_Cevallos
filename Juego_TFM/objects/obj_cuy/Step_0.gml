@@ -86,6 +86,16 @@ if izq_pre || izq{
 
 	}
 	
+	if(!corr){
+			
+		sprite_index = spr_cuy_walk;
+			
+	}else{
+			
+		sprite_index = spr_cuy_run;
+			
+	}
+	
 #endregion
 
 /*
@@ -156,6 +166,20 @@ if izq_pre || izq{
 	}
 #endregion
 
+#region Personaje parado
+	if (((izq && der) || (!izq && !der && !aba && !arr) || 
+	(izq && place_meeting(x-vel, y,obj_floor)) 
+
+	|| (der && place_meeting(x+vel, y,obj_floor)))){
+
+		sprite_index = spr_cuy_idle;
+		
+
+	}
+	#endregion 
+
+
+
 }else{
 
 	global.change_character = false;
@@ -168,6 +192,7 @@ if izq_pre || izq{
 
 }else{
 	
+	sprite_index = spr_cuy_idle;
 	image_blend = c_gray;
 	depth = 1;
 	

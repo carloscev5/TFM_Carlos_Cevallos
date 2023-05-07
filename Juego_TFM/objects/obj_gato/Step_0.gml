@@ -88,13 +88,52 @@ if izq_pre || izq{
 
 	}
 	
+	sprite_index = spr_gato_walk;
+	
 #endregion
+
+
 
 #region Salto del personaje
 	if sal && (!place_free(x, y+1)){
 		vspeed = -salto;
 	}
 #endregion
+
+#region Cambio de sprite cuando personaje salta y cae
+		if saltando{
+
+			sprite_index = spr_gato_jump;
+		}
+
+		if caer{
+
+			if vspeed <= 2 && vspeed >= -2{
+				
+				
+				sprite_index = spr_gato_jump_med;
+				
+			}else{
+	
+				sprite_index = spr_gato_fall;
+	
+			}
+			
+		}
+		#endregion
+
+#region Personaje parado
+	if ((gravity == 0) && ((izq && der) || (!izq && !der && !aba && !arr) || 
+	(izq && place_meeting(x-vel, y,obj_floor)) 
+
+	|| (der && place_meeting(x+vel, y,obj_floor)))){
+
+		sprite_index = spr_gato_idle;
+		
+
+	}
+	#endregion 
+
 
 
 
@@ -114,6 +153,7 @@ if izq_pre || izq{
 
 image_blend = c_gray;
 depth = 1;
+sprite_index = spr_gato_idle;
 	
 }
 

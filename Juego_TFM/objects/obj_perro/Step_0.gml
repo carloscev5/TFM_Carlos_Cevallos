@@ -73,17 +73,29 @@ if izq_pre || izq{
 	if der && !izq && place_free(x+vel, y){
 				
 		
+		
+		
 		x+= vel;
+		
 
 
 	}
 
 	if izq && !der && place_free(x-vel, y){
 				
-
 		x-= vel;
 			
 
+	}
+	
+	if(!corr){
+			
+		sprite_index = spr_perro_walk;
+			
+	}else{
+			
+		sprite_index = spr_perro_run;
+			
 	}
 	
 #endregion
@@ -154,6 +166,42 @@ if izq_pre || izq{
 	}
 #endregion
 
+		
+#region Cambio de sprite cuando personaje salta y cae
+		if saltando{
+
+			sprite_index = spr_perro_jump;
+		}
+
+		if caer{
+
+			if vspeed <= 2 && vspeed >= -2{
+				
+				
+				sprite_index = spr_perro_jump_med;
+				
+			}else{
+	
+				sprite_index = spr_perro_fall;
+	
+			}
+			
+		}
+		#endregion
+
+#region Personaje parado
+	if ((gravity == 0) && ((izq && der) || (!izq && !der && !aba && !arr) || 
+	(izq && place_meeting(x-vel, y,obj_floor)) 
+
+	|| (der && place_meeting(x+vel, y,obj_floor)))){
+
+		sprite_index = spr_perro_idle;
+		
+
+	}
+	#endregion 
+
+
 
 
 }else{
@@ -168,9 +216,11 @@ if izq_pre || izq{
 
 }else{
 	
+	sprite_index = spr_perro_idle;
 	image_blend = c_gray;
 	depth = 1;
 
 	
 }
 
+		
