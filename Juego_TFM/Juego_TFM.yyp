@@ -62,6 +62,7 @@
     {"id":{"name":"scr_cargar_controles","path":"scripts/scr_cargar_controles/scr_cargar_controles.yy",},},
     {"id":{"name":"spr_perro_fall","path":"sprites/spr_perro_fall/spr_perro_fall.yy",},},
     {"id":{"name":"obj_perro","path":"objects/obj_perro/obj_perro.yy",},},
+    {"id":{"name":"spr_perro_dig","path":"sprites/spr_perro_dig/spr_perro_dig.yy",},},
     {"id":{"name":"obj_cuy","path":"objects/obj_cuy/obj_cuy.yy",},},
     {"id":{"name":"spr_perro_walk","path":"sprites/spr_perro_walk/spr_perro_walk.yy",},},
     {"id":{"name":"spr_perro_jump_med","path":"sprites/spr_perro_jump_med/spr_perro_jump_med.yy",},},

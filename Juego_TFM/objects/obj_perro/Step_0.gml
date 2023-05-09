@@ -166,6 +166,16 @@ if izq_pre || izq{
 	}
 #endregion
 
+#region Personaje abajo y arriba
+		if aba && !der && !izq && !saltando && !sal && !caer && !arr{
+
+			vel = vi;
+			esta_corriendo = false;
+			sprite_index = spr_perro_dig;
+	
+		}
+#endregion
+
 		
 #region Cambio de sprite cuando personaje salta y cae
 		if saltando{
@@ -190,7 +200,7 @@ if izq_pre || izq{
 		#endregion
 
 #region Personaje parado
-	if ((gravity == 0) && ((izq && der) || (!izq && !der && !aba && !arr) || 
+	if ((gravity == 0) && ((izq && der) || (!izq && !der && !aba) || 
 	(izq && place_meeting(x-vel, y,obj_floor)) 
 
 	|| (der && place_meeting(x+vel, y,obj_floor)))){

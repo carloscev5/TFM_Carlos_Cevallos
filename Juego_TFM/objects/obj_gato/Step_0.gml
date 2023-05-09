@@ -123,7 +123,7 @@ if izq_pre || izq{
 		#endregion
 
 #region Personaje parado
-	if ((gravity == 0) && ((izq && der) || (!izq && !der && !aba && !arr) || 
+	if ((gravity == 0) && ((izq && der) || (!izq && !der) || 
 	(izq && place_meeting(x-vel, y,obj_floor)) 
 
 	|| (der && place_meeting(x+vel, y,obj_floor)))){

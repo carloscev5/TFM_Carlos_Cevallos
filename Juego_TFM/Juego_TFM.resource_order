@@ -36,6 +36,7 @@
     {"name":"spr_cuy_run","order":2,"path":"sprites/spr_cuy_run/spr_cuy_run.yy",},
     {"name":"spr_gato_jump_med","order":4,"path":"sprites/spr_gato_jump_med/spr_gato_jump_med.yy",},
     {"name":"spr_perro_fall","order":4,"path":"sprites/spr_perro_fall/spr_perro_fall.yy",},
+    {"name":"spr_perro_dig","order":6,"path":"sprites/spr_perro_dig/spr_perro_dig.yy",},
     {"name":"obj_cuy","order":2,"path":"objects/obj_cuy/obj_cuy.yy",},
     {"name":"spr_perro_walk","order":1,"path":"sprites/spr_perro_walk/spr_perro_walk.yy",},
     {"name":"spr_perro_jump_med","order":5,"path":"sprites/spr_perro_jump_med/spr_perro_jump_med.yy",},

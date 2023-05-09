@@ -167,7 +167,7 @@ if izq_pre || izq{
 #endregion
 
 #region Personaje parado
-	if (((izq && der) || (!izq && !der && !aba && !arr) || 
+	if (((izq && der) || (!izq && !der ) || 
 	(izq && place_meeting(x-vel, y,obj_floor)) 
 
 	|| (der && place_meeting(x+vel, y,obj_floor)))){
