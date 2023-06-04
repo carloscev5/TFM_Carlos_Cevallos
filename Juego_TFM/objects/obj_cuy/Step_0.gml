@@ -11,7 +11,6 @@ der = keyboard_check(global.right) or gamepad_axis_value(global.gp, gp_axislh) >
 izq = keyboard_check(global.left) or gamepad_axis_value(global.gp, gp_axislh) < -0.25 or gamepad_button_check(global.gp, gp_padl);
 der_pre = keyboard_check_pressed(global.right) or gamepad_axis_value(global.gp, gp_axislh) > 0.25 or gamepad_button_check_pressed(global.gp, gp_padr);
 izq_pre = keyboard_check_pressed(global.left) or gamepad_axis_value(global.gp, gp_axislh) < -0.25 or gamepad_button_check_pressed(global.gp, gp_padl);
-aba = keyboard_check(global.down) or gamepad_axis_value(global.gp, gp_axislv) > 0.40 or gamepad_button_check(global.gp, gp_padd);
 arr = keyboard_check(global.up) or gamepad_axis_value(global.gp, gp_axislv) < -0.40 or gamepad_button_check(global.gp, gp_padu);
 sal = keyboard_check_pressed(global.jump) or gamepad_button_check_pressed(global.gp, gp_face2) or gamepad_button_check_pressed(global.gp, gp_face1); 
 corr = keyboard_check(global.run) or gamepad_button_check(global.gp, gp_face4) or gamepad_button_check(global.gp, gp_face3); 
@@ -63,6 +62,14 @@ if izq_pre || izq{
 		
 	ld = false;
 			
+}
+#endregion
+
+#region Entrar Sub Nivel
+if(arr){
+	puede_entrar_sub = true;
+}else{
+	puede_entrar_sub = false;	
 }
 #endregion
 

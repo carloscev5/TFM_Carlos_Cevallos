@@ -10,3 +10,4 @@ vmed = 12;
 vmax = 18;
 salto = 36; // Salto del Personaje
 esta_corriendo = false;
+esta_ladrando = false;

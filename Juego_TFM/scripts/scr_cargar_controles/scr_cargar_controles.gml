@@ -9,4 +9,5 @@ function scr_cargar_controles(){
 	global.run = ord("J");
 	global.interact = ord("I");
 	global.quit = vk_escape;
+	global.special = ord("L");
 }

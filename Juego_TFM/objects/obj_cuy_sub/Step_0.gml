@@ -1,22 +1,16 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-if(global.active_character == 1){
-	
-	if(!global.change_character && global.nivel_inicia){
-		
-	
+
 
 #region Verificar teclas
 der = keyboard_check(global.right) or gamepad_axis_value(global.gp, gp_axislh) > 0.25 or gamepad_button_check(global.gp, gp_padr);
 izq = keyboard_check(global.left) or gamepad_axis_value(global.gp, gp_axislh) < -0.25 or gamepad_button_check(global.gp, gp_padl);
 der_pre = keyboard_check_pressed(global.right) or gamepad_axis_value(global.gp, gp_axislh) > 0.25 or gamepad_button_check_pressed(global.gp, gp_padr);
 izq_pre = keyboard_check_pressed(global.left) or gamepad_axis_value(global.gp, gp_axislh) < -0.25 or gamepad_button_check_pressed(global.gp, gp_padl);
-aba = keyboard_check(global.down) or gamepad_axis_value(global.gp, gp_axislv) > 0.40 or gamepad_button_check(global.gp, gp_padd);
 arr = keyboard_check(global.up) or gamepad_axis_value(global.gp, gp_axislv) < -0.40 or gamepad_button_check(global.gp, gp_padu);
-sal = keyboard_check_pressed(global.jump) or gamepad_button_check_pressed(global.gp, gp_face2);
-corr = keyboard_check(global.run) or gamepad_button_check(global.gp, gp_face4);
-nsal = keyboard_check_released(global.jump) or gamepad_button_check_released(global.gp, gp_face2);
-lad = keyboard_check_pressed(global.special) or gamepad_button_check_pressed(global.gp, gp_face3);
+sal = keyboard_check_pressed(global.jump) or gamepad_button_check_pressed(global.gp, gp_face2) or gamepad_button_check_pressed(global.gp, gp_face1); 
+corr = keyboard_check(global.run) or gamepad_button_check(global.gp, gp_face4) or gamepad_button_check(global.gp, gp_face3); 
+nsal = keyboard_check_released(global.jump) or gamepad_button_check_released(global.gp, gp_face2) or gamepad_button_check_released(global.gp, gp_face1); 
 #endregion
 
 
@@ -67,6 +61,14 @@ if izq_pre || izq{
 }
 #endregion
 
+#region Entrar Sub Nivel
+if(arr){
+	puede_entrar_sub = true;
+}else{
+	puede_entrar_sub = false;	
+}
+#endregion
+
 #region Caminar y correr
 
 
@@ -74,16 +76,14 @@ if izq_pre || izq{
 	if der && !izq && place_free(x+vel, y){
 				
 		
-		
-		
 		x+= vel;
-		
 
 
 	}
 
 	if izq && !der && place_free(x-vel, y){
 				
+
 		x-= vel;
 			
 
@@ -91,21 +91,23 @@ if izq_pre || izq{
 	
 	if(!corr){
 			
-		sprite_index = spr_perro_walk;
+		sprite_index = spr_cuy_walk;
 			
 	}else{
 			
-		sprite_index = spr_perro_run;
+		sprite_index = spr_cuy_run;
 			
 	}
 	
 #endregion
 
+/*
 #region Salto del personaje
 	if sal && (!place_free(x, y+1)){
 		vspeed = -salto;
 	}
 #endregion
+*/
 
 #region Cambiar velocidad y salto
 	if !saltando && !caer{
@@ -167,78 +169,15 @@ if izq_pre || izq{
 	}
 #endregion
 
-#region Personaje abajo y arriba
-		if aba && !der && !izq && !saltando && !sal && !caer && !arr{
-
-			vel = vi;
-			esta_corriendo = false;
-			sprite_index = spr_perro_dig;
-	
-		}
-#endregion
-
-		
-#region Cambio de sprite cuando personaje salta y cae
-		if saltando{
-
-			sprite_index = spr_perro_jump;
-		}
-
-		if caer{
-
-			if vspeed <= 2 && vspeed >= -2{
-				
-				
-				sprite_index = spr_perro_jump_med;
-				
-			}else{
-	
-				sprite_index = spr_perro_fall;
-	
-			}
-			
-		}
-		#endregion
-
 #region Personaje parado
-	if ((gravity == 0) && ((izq && der) || (!izq && !der && !aba) || 
+	if (((izq && der) || (!izq && !der ) || 
 	(izq && place_meeting(x-vel, y,obj_floor)) 
 
 	|| (der && place_meeting(x+vel, y,obj_floor)))){
 
-		sprite_index = spr_perro_idle;
+		sprite_index = spr_cuy_idle;
 		
 
 	}
 	#endregion 
 
-#region Ladrar
-if(lad){
-	esta_ladrando = true;
-}else{
-	esta_ladrando = false;
-}
-#endregion
-
-
-
-}else{
-
-	global.change_character = false;
-	image_blend = c_white;
-	depth = -1;
-	
-	
-}
-
-
-}else{
-	
-	sprite_index = spr_perro_idle;
-	image_blend = c_gray;
-	depth = 1;
-
-	
-}
-
-		

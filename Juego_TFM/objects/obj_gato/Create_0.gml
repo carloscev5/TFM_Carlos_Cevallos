@@ -9,3 +9,9 @@ vi = 8;
 vmed = 8;
 vmax = 8;
 salto = 54; // Salto del Personaje
+
+
+#region Verificar teclas
+der = false;
+izq = true;
+#endregion

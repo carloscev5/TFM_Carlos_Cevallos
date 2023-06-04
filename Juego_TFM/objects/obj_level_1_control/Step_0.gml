@@ -38,3 +38,27 @@ if(obj_cuy.esta_corriendo && instance_exists(jaula_cuy_1)){
 
 }
 #endregion
+
+#region Tercer Obstaculo
+	if(obj_perro.esta_ladrando && (nuevo_piso.x != nuevo_piso.xstart)){
+	
+		var x_aux1 = (obj_perro.x - 100);
+		var x_aux2 = (obj_perro.x + 100);
+		var y_aux1 = (obj_perro.y + 300);
+		var y_aux2 = (obj_perro.y + 512);
+		if(obj_perro.ld){
+			if(collision_rectangle(x_aux1 + 500, y_aux1, x_aux2, y_aux2, cristal_1,false, true)){	
+			//instance_destroy(cristal_1);
+			laser_1.visible = true;
+			laser_2.visible = false;
+			nuevo_piso.x = nuevo_piso.xstart;
+			nuevo_piso.y = nuevo_piso.ystart;
+			ds_list_add(global.objetivos, 3);	
+			scr_guardar_estado();
+		}
+		
+	}
+	
+
+}
+#endregion
