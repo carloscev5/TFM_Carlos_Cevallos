@@ -8,4 +8,4 @@ vel = 8; // Velocidad del personaje
 vi = 8;
 vmed = 8;
 vmax = 8;
-salto = 48; // Salto del Personaje
+salto = 54; // Salto del Personaje

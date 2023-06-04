@@ -102,3 +102,4 @@ if(ld){
 	image_xscale = 1;
 	
 }
+	

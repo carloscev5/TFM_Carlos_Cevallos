@@ -2,7 +2,7 @@
 // Puede escribir su código en este editor
 if(global.active_character == 1){
 	
-	if(!global.change_character){
+	if(!global.change_character && global.nivel_inicia){
 		
 	
 
