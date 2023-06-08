@@ -1,10 +1,6 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-if(global.active_character == 3){
-	
-		if(!global.change_character){
-		
-	
+
 
 #region Verificar teclas
 der = keyboard_check(global.right) or gamepad_axis_value(global.gp, gp_axislh) > 0.25 or gamepad_button_check(global.gp, gp_padr);
@@ -184,24 +180,4 @@ if(arr){
 
 	}
 	#endregion 
-
-
-
-}else{
-
-	global.change_character = false;
-	image_blend = c_white;
-	depth = -1;
-	
-	
-}
-
-
-}else{
-	
-	sprite_index = spr_cuy_idle;
-	image_blend = c_gray;
-	depth = 1;
-	
-}
 

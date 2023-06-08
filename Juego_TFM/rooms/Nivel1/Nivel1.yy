@@ -18,7 +18,6 @@
     {"name":"jaula_perro_2","path":"rooms/Nivel1/Nivel1.yy",},
     {"name":"jaula_perro_1","path":"rooms/Nivel1/Nivel1.yy",},
     {"name":"jaula_perro_3","path":"rooms/Nivel1/Nivel1.yy",},
-    {"name":"inst_241382DC","path":"rooms/Nivel1/Nivel1.yy",},
     {"name":"jaula_cuy_1","path":"rooms/Nivel1/Nivel1.yy",},
     {"name":"jaula_cuy_2","path":"rooms/Nivel1/Nivel1.yy",},
     {"name":"inst_96BEF12","path":"rooms/Nivel1/Nivel1.yy",},
@@ -31,14 +30,13 @@
     {"name":"jaula_gato_2","path":"rooms/Nivel1/Nivel1.yy",},
     {"name":"cristal_1","path":"rooms/Nivel1/Nivel1.yy",},
     {"name":"nuevo_piso","path":"rooms/Nivel1/Nivel1.yy",},
-    {"name":"inst_42F3D050","path":"rooms/Nivel1/Nivel1.yy",},
-    {"name":"inst_AF082C7","path":"rooms/Nivel1/Nivel1.yy",},
+    {"name":"inst_38778B92","path":"rooms/Nivel1/Nivel1.yy",},
+    {"name":"inst_41DD727E","path":"rooms/Nivel1/Nivel1.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Controls","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_241382DC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_level_control","path":"objects/obj_level_control/obj_level_control.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_AF082C7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_level_1_control","path":"objects/obj_level_1_control/obj_level_1_control.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":899.0,"y":550.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_41DD727E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_nivel_1_control","path":"objects/obj_nivel_1_control/obj_nivel_1_control.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Jaulas","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"jaula_perro_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},"properties":[],"rotation":0.0,"scaleX":0.0625,"scaleY":0.625,"x":96.0,"y":1344.0,},
@@ -62,7 +60,7 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Objects","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"cristal_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_jaula","path":"objects/obj_jaula/obj_jaula.yy",},"properties":[],"rotation":0.0,"scaleX":0.25,"scaleY":0.5,"x":1792.0,"y":1408.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"nuevo_piso","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_jaula","path":"objects/obj_jaula/obj_jaula.yy",},"properties":[],"rotation":0.0,"scaleX":0.25,"scaleY":0.5,"x":1920.0,"y":2432.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_42F3D050","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_sub_nivel_1","path":"objects/obj_sub_nivel_1/obj_sub_nivel_1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":2304.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_38778B92","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_agujero_nivel_1","path":"objects/obj_agujero_nivel_1/obj_agujero_nivel_1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":2304.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Walls","depth":500,"effectEnabled":true,"effectType":null,"gridX":128,"gridY":128,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4A01BAE6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},"properties":[],"rotation":0.0,"scaleX":3.75,"scaleY":1.25,"x":0.0,"y":2432.0,},
