@@ -1,9 +1,19 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-visible = true;
-puede_cambiar = true;
-if(self.name == "laser_1"){
-	laser_2.visible = false;
+if(visible){
+	visible = false;
+	if(self.name == "laser_1"){
+		laser_2.visible = true;
+	}else{
+		laser_1.visible = true;
+	}	
+
 }else{
-	laser_1.visible = false;
+	visible = true;
+	if(self.name == "laser_1"){
+		laser_2.visible = false;
+	}else{
+		laser_1.visible = false;
+	}	
 }
+puede_cambiar = true;

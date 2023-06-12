@@ -1,9 +1,5 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-xmed1 = x-35;
-xmed2 = x+35;
-
-
 
 #region Colision con floor
 if(ld){
@@ -15,21 +11,10 @@ if(ld){
 		
 			y = ground.y-sprite_height;	
 			vspeed = 0;
+			solid = true;
+
 		
 		}
-	}
-	
-	if(saltando){
-		
-		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor,false,false);
-		if(ground){
-		
-			y = ground.y+ground.sprite_height-1;	
-			vspeed = 0;
-		
-		}
-	
-		
 	}
 	
 	
@@ -43,16 +28,9 @@ if(ld){
 		
 			y = ground.y-sprite_height;	
 			vspeed = 0;
+			solid = true;
+
 		}
-	}
-	if(saltando){
-		
-		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor,false,false);
-		if(ground){
-			y = ground.y+ground.sprite_height-1;	
-			vspeed = 0;
-		}
-		
 	}
 	
 }
@@ -64,10 +42,12 @@ if(ld){
 	if(caer){
 		
 		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor_no_solid,false,false);
-		if(ground && ground.solid){
+		if(ground){
 		
 			y = ground.y-sprite_height;	
 			vspeed = 0;
+			solid = true;
+
 			
 		
 		}
@@ -82,10 +62,12 @@ if(ld){
 	if(caer){
 		
 		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor_no_solid,false,false);
-		if(ground  && ground.solid){
+		if(ground){
 		
 			y = ground.y-sprite_height;	
 			vspeed = 0;
+			solid = true;
+
 		
 		}
 		
@@ -95,12 +77,3 @@ if(ld){
 }
 #endregion
 
-if(ld){
-
-	image_xscale = -1;
-	
-}else{
-	
-	image_xscale = 1;
-	
-}

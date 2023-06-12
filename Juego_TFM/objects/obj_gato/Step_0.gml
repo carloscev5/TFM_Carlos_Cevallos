@@ -72,20 +72,42 @@ if izq_pre || izq{
 
 
 	
-	if der && !izq && place_free(x+vel, y){
+	if der && !izq {
 				
+		if(place_free(x+vel, y)){
+			x+= vel;
+			esta_caminando = true;
+		}else{
+			
+			var ground = collision_rectangle(xmed1+vel,y,xmed2+vel,y+sprite_height,obj_mover,false,false);
+			if(ground){
 		
-		x+= vel;
-		esta_caminando = true;
+				ground.x = ground.x+vel;
+		
+			}
+			
+		}
+		
 
 
 	}
 
-	if izq && !der && place_free(x-vel, y){
+	if izq && !der{
 				
+		if(place_free(x-vel, y)){
+			x-= vel;
+			esta_caminando = false;
+		}else{
+			var ground = collision_rectangle(xmed1-vel,y,xmed2-vel,y+sprite_height,obj_mover,false,false);
+			if(ground){
+		
+				ground.x = ground.x-vel;
+		
+			}
+			
+		}
 
-		x-= vel;
-		esta_caminando = false;
+		
 			
 
 	}
