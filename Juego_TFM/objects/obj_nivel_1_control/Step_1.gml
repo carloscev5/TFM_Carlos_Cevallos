@@ -16,5 +16,8 @@ if(!eventos_actualizados){
 			nuevo_piso.x = nuevo_piso.xstart;
 			nuevo_piso.y = nuevo_piso.ystart;
 	}
+	if(ds_list_find_index(global.objetivos, 6) >= 0){
+		instance_destroy(jaula_gato_3);
+	}
 	eventos_actualizados = true;
 }

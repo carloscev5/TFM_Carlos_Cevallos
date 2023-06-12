@@ -76,6 +76,7 @@ if izq_pre || izq{
 				
 		
 		x+= vel;
+		esta_caminando = true;
 
 
 	}
@@ -84,6 +85,7 @@ if izq_pre || izq{
 				
 
 		x-= vel;
+		esta_caminando = false;
 			
 
 	}
@@ -129,6 +131,7 @@ if izq_pre || izq{
 	|| (der && place_meeting(x+vel, y,obj_floor)))){
 
 		sprite_index = spr_gato_idle;
+		esta_caminando = false;
 		
 
 	}

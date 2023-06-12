@@ -96,6 +96,61 @@ if(ld){
 }
 #endregion
 
+#region Colision con objetos a mover
+if(ld){
+		
+	if(caer){
+		
+		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_mover,false,false);
+		if(ground){
+		
+			y = ground.y-sprite_height;	
+			
+			vspeed = 0;
+		
+		}
+	}
+	
+	if(saltando){
+		
+		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_mover,false,false);
+		if(ground){
+		
+			y = ground.y+ground.sprite_height-1;	
+			vspeed = 0;
+		
+		}
+	
+		
+	}
+	
+	
+}else{
+
+
+		
+	if(caer){
+		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_mover,false,false);
+		if(ground){
+		
+			y = ground.y-sprite_height;	
+			
+			vspeed = 0;
+		}
+	}
+	if(saltando){
+		
+		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_mover,false,false);
+		if(ground){
+			y = ground.y+ground.sprite_height-1;	
+			vspeed = 0;
+		}
+		
+	}
+	
+}
+#endregion
+
 if(ld){
 
 	image_xscale = -1;

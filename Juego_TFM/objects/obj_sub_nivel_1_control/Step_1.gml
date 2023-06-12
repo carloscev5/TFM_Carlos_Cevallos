@@ -1,5 +1,11 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 if(!eventos_actualizados){
+	if(ds_list_find_index(global.objetivos, 5) >= 0){
+		instance_destroy(piso_fragil);
+	}
+	if(ds_list_find_index(global.objetivos, 6) >= 0){
+		instance_destroy(obj_boton_jaula);
+	}
 	eventos_actualizados = true;
 }
