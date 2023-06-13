@@ -41,19 +41,3 @@ if(!se_rompe_plataforma){
 		
 }
 #endregion
-
-#region Sexto Obstaculo
-if(instance_exists(obj_boton_jaula)){
-	var x_aux1 = (obj_cuy_sub_nivel.x - 35);
-	var x_aux2 = (obj_cuy_sub_nivel.x + 35);
-	var y_aux1 = (obj_cuy_sub_nivel.y + 440);
-	var y_aux2 = (obj_cuy_sub_nivel.y + 512);
-	if(collision_rectangle(x_aux1, y_aux1, x_aux2, y_aux2+100, obj_boton_jaula,false, true)){
-	
-		instance_destroy(obj_boton_jaula);
-		ds_list_add(global.objetivos, 6);		
-		scr_guardar_partida();
-
-	}
-}
-#endregion

@@ -96,11 +96,14 @@ if(ld){
 #endregion
 
 #region Colision con objetos a mover
+if(instance_exists(obj_mover_1) && obj_mover_1.solid = true){
+
+
 if(ld){
 		
 	if(caer){
 		
-		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_mover,false,false);
+		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_mover_1,false,false);
 		if(ground){
 		
 			y = ground.y-sprite_height;	
@@ -112,7 +115,7 @@ if(ld){
 	
 	if(saltando){
 		
-		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_mover,false,false);
+		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_mover_1,false,false);
 		if(ground){
 		
 			y = ground.y+ground.sprite_height-1;	
@@ -129,7 +132,7 @@ if(ld){
 
 		
 	if(caer){
-		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_mover,false,false);
+		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_mover_1,false,false);
 		if(ground){
 		
 			y = ground.y-sprite_height;	
@@ -139,7 +142,7 @@ if(ld){
 	}
 	if(saltando){
 		
-		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_mover,false,false);
+		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_mover_1,false,false);
 		if(ground){
 			y = ground.y+ground.sprite_height-1;	
 			vspeed = 0;
@@ -147,6 +150,7 @@ if(ld){
 		
 	}
 	
+}
 }
 #endregion
 

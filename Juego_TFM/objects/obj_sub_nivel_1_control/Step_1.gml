@@ -5,7 +5,13 @@ if(!eventos_actualizados){
 		instance_destroy(piso_fragil);
 	}
 	if(ds_list_find_index(global.objetivos, 6) >= 0){
-		instance_destroy(obj_boton_jaula);
+		instance_destroy(obj_boton_jaula_sn1_1);
+	}
+	if(ds_list_find_index(global.objetivos, 8) >= 0){
+		obj_boton_jaula_sn1_2.x = 1408;
+	}
+	if(ds_list_find_index(global.objetivos, 9) >= 0){
+		instance_destroy(obj_boton_jaula_sn1_2);
 	}
 	eventos_actualizados = true;
 }

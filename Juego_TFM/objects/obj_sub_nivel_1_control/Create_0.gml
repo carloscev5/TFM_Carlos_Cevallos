@@ -13,3 +13,4 @@ scr_cargar_estado_sub_nivel();
 eventos_actualizados = false;
 se_rompe_plataforma = false;
 estan_dos = false;
+obj_boton_jaula_sn1_2.x = -100;

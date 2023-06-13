@@ -14,7 +14,6 @@ if keyboard_check_pressed(ord("I")){
 	}
 }
 
-
 #region Primer Obstaculo
 if(obj_perro.esta_corriendo && instance_exists(jaula_perro_1)){
 	
@@ -62,7 +61,7 @@ if(obj_cuy.esta_corriendo && instance_exists(jaula_cuy_1)){
 		var y_aux2 = (obj_perro.y + 512);
 		if(obj_perro.ld){
 			if(collision_rectangle(x_aux1 + 500, y_aux1, x_aux2, y_aux2, cristal_1,false, true)){	
-			//instance_destroy(cristal_1);
+			instance_destroy(cristal_1);
 			laser_1.visible = true;
 			laser_2.visible = false;
 			nuevo_piso.x = nuevo_piso.xstart;

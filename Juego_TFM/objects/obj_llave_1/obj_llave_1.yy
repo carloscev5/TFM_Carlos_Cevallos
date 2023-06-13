@@ -1,17 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_fall",
+  "name": "obj_llave_1",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_cuy","path":"objects/obj_cuy/obj_cuy.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_gato","path":"objects/obj_gato/obj_gato.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_perro","path":"objects/obj_perro/obj_perro.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "walls",
-    "path": "folders/Objetos/walls.yy",
+    "name": "nivel_1",
+    "path": "folders/Objetos/nivel_1.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -30,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_fall",
-    "path": "sprites/spr_fall/spr_fall.yy",
+    "name": "spr_green",
+    "path": "sprites/spr_green/spr_green.yy",
   },
   "spriteMaskId": null,
   "visible": true,

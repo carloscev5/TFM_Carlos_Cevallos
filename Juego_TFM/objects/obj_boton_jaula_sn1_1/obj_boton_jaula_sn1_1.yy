@@ -1,8 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_boton_jaula",
-  "eventList": [],
+  "name": "obj_boton_jaula_sn1_1",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_cuy_sub_nivel","path":"objects/obj_cuy_sub_nivel/obj_cuy_sub_nivel.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {

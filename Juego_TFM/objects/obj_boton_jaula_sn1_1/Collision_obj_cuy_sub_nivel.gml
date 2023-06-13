@@ -1,3 +1,5 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-draw_text(0,100,  ds_list_find_index(global.objetivos, 7));
+instance_destroy();
+ds_list_add(global.objetivos, 6);		
+scr_guardar_partida();

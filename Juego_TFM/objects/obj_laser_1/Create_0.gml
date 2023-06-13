@@ -1,3 +1,6 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-draw_text(0,100,  ds_list_find_index(global.objetivos, 7));
+puede_cambiar = true;
+vel_cambio = 0.5;
+vel_cambio_danado = 1;
+esta_danado = false;
