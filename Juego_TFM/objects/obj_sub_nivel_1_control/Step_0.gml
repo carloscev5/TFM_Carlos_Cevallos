@@ -14,10 +14,10 @@ if(!se_rompe_plataforma){
 	var y_aux1 = (obj_cuy_sub_nivel.y + 440);
 	var y_aux2 = (obj_cuy_sub_nivel.y + 512);
 	
-	var x_aux12 = (obj_ratona_1.x - 35);
-	var x_aux22 = (obj_ratona_1.x + 35);
-	var y_aux12 = (obj_ratona_1.y + 440);
-	var y_aux22 = (obj_ratona_1.y + 512);
+	var x_aux12 = (obj_ratona_1.x - 106);
+	var x_aux22 = (obj_ratona_1.x + 106);
+	var y_aux12 = (obj_ratona_1.y);
+	var y_aux22 = (obj_ratona_1.y + obj_ratona_1.sprite_height);
 	if(collision_rectangle(x_aux1, y_aux1, x_aux2, y_aux2+100, piso_fragil,false, true)
 	&& collision_rectangle(x_aux12, y_aux12, x_aux22, y_aux22+100, piso_fragil,false, true)){
 	

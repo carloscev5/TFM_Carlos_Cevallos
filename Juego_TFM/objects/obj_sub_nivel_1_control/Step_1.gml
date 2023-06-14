@@ -9,6 +9,7 @@ if(!eventos_actualizados){
 	}
 	if(ds_list_find_index(global.objetivos, 7) >= 0){
 		instance_destroy(piso_fragil);
+		obj_ratona_1.y = 686;
 	}
 	if(ds_list_find_index(global.objetivos, 9) >= 0){
 		obj_boton_jaula_sn1_2.x = 1408;
