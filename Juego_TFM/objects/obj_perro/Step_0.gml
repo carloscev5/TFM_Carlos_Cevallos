@@ -2,7 +2,7 @@
 // Puede escribir su código en este editor
 if(global.active_character == 1){
 	
-	if(!global.change_character && global.nivel_inicia){
+	if(!global.change_character && global.nivel_inicia && !esta_ladrando){
 		
 	
 
@@ -167,7 +167,7 @@ if izq_pre || izq{
 	}
 #endregion
 
-#region Personaje abajo y arriba
+#region Personaje abajo
 		if aba && !der && !izq && !saltando && !sal && !caer && !arr{
 
 			vel = vi;
@@ -214,9 +214,8 @@ if izq_pre || izq{
 
 #region Ladrar
 if(lad){
+	sprite_index = spr_perro_bark;
 	esta_ladrando = true;
-}else{
-	esta_ladrando = false;
 }
 #endregion
 

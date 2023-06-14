@@ -18,9 +18,9 @@
     {"name":"inst_8B6D59D","path":"rooms/SubNivel1/SubNivel1.yy",},
     {"name":"inst_56BE8C9D","path":"rooms/SubNivel1/SubNivel1.yy",},
     {"name":"inst_43F070D0","path":"rooms/SubNivel1/SubNivel1.yy",},
-    {"name":"inst_4CF0BBDE","path":"rooms/SubNivel1/SubNivel1.yy",},
     {"name":"inst_7EE89F2","path":"rooms/SubNivel1/SubNivel1.yy",},
     {"name":"inst_536EA523","path":"rooms/SubNivel1/SubNivel1.yy",},
+    {"name":"inst_5B40C315","path":"rooms/SubNivel1/SubNivel1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -35,7 +35,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_47E325C4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},"properties":[],"rotation":0.0,"scaleX":2.5,"scaleY":0.25,"x":256.0,"y":384.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Obstacles","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4CF0BBDE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_jaula","path":"objects/obj_jaula/obj_jaula.yy",},"properties":[],"rotation":0.0,"scaleX":0.25,"scaleY":0.25,"x":1376.0,"y":640.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5B40C315","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_comida_1","path":"objects/obj_comida_1/obj_comida_1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":928.0,"y":704.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Objects","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2F6C6086","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_agujero_sub_nivel_1","path":"objects/obj_agujero_sub_nivel_1/obj_agujero_sub_nivel_1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":640.0,},

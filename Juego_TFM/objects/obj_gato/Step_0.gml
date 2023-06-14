@@ -20,7 +20,6 @@ nsal = keyboard_check_released(global.jump) or gamepad_button_check_released(glo
 #endregion
 
 
-
 #region Gravedad
 if place_free(x, y+1){
 	gravity = 2;
@@ -67,11 +66,10 @@ if izq_pre || izq{
 }
 #endregion
 
-
 #region Caminar y correr
 
 
-	
+	esta_empujando = false;
 	if der && !izq {
 				
 		if(place_free(x+vel, y)){
@@ -83,9 +81,9 @@ if izq_pre || izq{
 			if(ground){
 		
 				ground.x = ground.x+vel;
+				esta_empujando = true;
 		
 			}
-			
 		}
 		
 
@@ -102,6 +100,7 @@ if izq_pre || izq{
 			if(ground){
 		
 				ground.x = ground.x-vel;
+				esta_empujando = true;
 		
 			}
 			
@@ -113,9 +112,9 @@ if izq_pre || izq{
 	}
 	
 	sprite_index = spr_gato_walk;
+
 	
 #endregion
-
 
 
 #region Salto del personaje
@@ -155,11 +154,14 @@ if izq_pre || izq{
 		sprite_index = spr_gato_idle;
 		esta_caminando = false;
 		
+		
 
 	}
 	#endregion 
 
-
+		if(esta_empujando){
+		sprite_index = spr_gato_push;
+	}
 
 
 	

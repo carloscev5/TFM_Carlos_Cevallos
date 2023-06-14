@@ -7,6 +7,7 @@ der = keyboard_check(global.right) or gamepad_axis_value(global.gp, gp_axislh) >
 izq = keyboard_check(global.left) or gamepad_axis_value(global.gp, gp_axislh) < -0.25 or gamepad_button_check(global.gp, gp_padl);
 der_pre = keyboard_check_pressed(global.right) or gamepad_axis_value(global.gp, gp_axislh) > 0.25 or gamepad_button_check_pressed(global.gp, gp_padr);
 izq_pre = keyboard_check_pressed(global.left) or gamepad_axis_value(global.gp, gp_axislh) < -0.25 or gamepad_button_check_pressed(global.gp, gp_padl);
+aba = keyboard_check(global.down) or gamepad_axis_value(global.gp, gp_axislv) > 0.40 or gamepad_button_check(global.gp, gp_padd);
 arr = keyboard_check_pressed(global.up) or gamepad_axis_value(global.gp, gp_axislv) < -0.40 or gamepad_button_check_pressed(global.gp, gp_padu);
 sal = keyboard_check_pressed(global.jump) or gamepad_button_check_pressed(global.gp, gp_face2) or gamepad_button_check_pressed(global.gp, gp_face1); 
 corr = keyboard_check(global.run) or gamepad_button_check(global.gp, gp_face4) or gamepad_button_check(global.gp, gp_face3); 
@@ -169,8 +170,22 @@ if(arr){
 	}
 #endregion
 
+#region Personaje abajo
+		if aba && !der && !izq && !arr{
+
+			vel = vi;
+			esta_comiendo = true;
+			esta_corriendo = false;
+			sprite_index = spr_cuy_eat;
+	
+		}else{
+			esta_comiendo = false;
+		}
+#endregion
+
+
 #region Personaje parado
-	if (((izq && der) || (!izq && !der ) || 
+	if (((izq && der) || (!izq && !der && !aba) || 
 	(izq && place_meeting(x-vel, y,obj_floor)) 
 
 	|| (der && place_meeting(x+vel, y,obj_floor)))){

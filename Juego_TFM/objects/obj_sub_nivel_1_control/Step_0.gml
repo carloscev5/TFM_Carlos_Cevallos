@@ -35,7 +35,7 @@ if(!se_rompe_plataforma){
 
 	if(instance_exists(piso_fragil)){	
 		instance_destroy(piso_fragil);
-		ds_list_add(global.objetivos, 5);		
+		ds_list_add(global.objetivos, 7);		
 		scr_guardar_partida();
 	}
 		

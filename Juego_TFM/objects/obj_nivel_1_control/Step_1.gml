@@ -17,28 +17,32 @@ if(!eventos_actualizados){
 			nuevo_piso.x = nuevo_piso.xstart;
 			nuevo_piso.y = nuevo_piso.ystart;
 	}
+	if(ds_list_find_index(global.objetivos, 4) >= 0){
+			laser_1.visible = false;
+			laser_2.visible = true;
+	}
 	if(ds_list_find_index(global.objetivos, 6) >= 0){
 		instance_destroy(jaula_gato_3);
 		laser_2.visible = true;
 		laser_1.visible = false;
 	}
-	if(ds_list_find_index(global.objetivos, 7) >= 0){
+	if(ds_list_find_index(global.objetivos, 8) >= 0){
 		obj_mover_1.x = 3120;
 		obj_mover_1.y = 2304;
 		laser_2.visible = false;
 		laser_1.visible = true;
 	}
-	if(ds_list_find_index(global.objetivos, 8) >= 0){
+	if(ds_list_find_index(global.objetivos, 9) >= 0){
 		instance_destroy(obj_llave_1);
 		laser_2.visible = true;
 		laser_1.visible = false;
 	}
-	if(ds_list_find_index(global.objetivos, 9) >= 0){
+	if(ds_list_find_index(global.objetivos, 10) >= 0){
 		jaula_techo.x = 4032;
 		laser_2.visible = false;
 		laser_1.visible = true;
 	}
-	if(ds_list_find_index(global.objetivos, 10) >= 0){
+	if(ds_list_find_index(global.objetivos, 11) >= 0){
 		laser_2.visible = false;
 		laser_1.visible = true;
 		obj_mover_1.solid = false;

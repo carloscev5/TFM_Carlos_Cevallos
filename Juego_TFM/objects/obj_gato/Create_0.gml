@@ -10,7 +10,7 @@ vmed = 8;
 vmax = 8;
 salto = 54; // Salto del Personaje
 esta_caminando = false;
-
+esta_empujando = false;
 
 #region Verificar teclas
 der = false;

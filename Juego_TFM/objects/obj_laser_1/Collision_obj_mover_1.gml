@@ -3,13 +3,13 @@
 other.solid = false;
 if(!esta_danado){
 	if(puede_cambiar){
-		if(ds_list_find_index(global.objetivos, 7) == -1){
-			ds_list_add(global.objetivos, 7);	
+		if(ds_list_find_index(global.objetivos, 8) == -1){
+			ds_list_add(global.objetivos, 8);	
 			scr_guardar_partida();
 			alarm[0] = room_speed*vel_cambio;
 			puede_cambiar = false;
 		}
-		if(ds_list_find_index(global.objetivos, 9) >= 0){
+		if(ds_list_find_index(global.objetivos, 10) >= 0){
 			laser_1.esta_danado = true;
 			laser_2.esta_danado = true;
 			if(laser_1.visible){
@@ -19,7 +19,7 @@ if(!esta_danado){
 				laser_1.visible = true;
 				laser_2.visible = false;
 			}
-			ds_list_add(global.objetivos, 10);	
+			ds_list_add(global.objetivos, 11);	
 			scr_guardar_partida();
 		}
 		

@@ -19,4 +19,4 @@ scr_cargar_partida();
 global.nivel = 1;
 scr_cargar_estado_nivel();
 eventos_actualizados = false;
-jaula_techo.x = -200;
+jaula_techo.x = -1000;
