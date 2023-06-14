@@ -29,8 +29,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_green",
-    "path": "sprites/spr_green/spr_green.yy",
+    "name": "spr_lechuga",
+    "path": "sprites/spr_lechuga/spr_lechuga.yy",
   },
   "spriteMaskId": null,
   "visible": true,

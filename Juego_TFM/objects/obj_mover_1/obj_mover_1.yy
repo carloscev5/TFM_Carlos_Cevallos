@@ -36,8 +36,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_agujero",
-    "path": "sprites/spr_agujero/spr_agujero.yy",
+    "name": "spr_caja",
+    "path": "sprites/spr_caja/spr_caja.yy",
   },
   "spriteMaskId": null,
   "visible": true,

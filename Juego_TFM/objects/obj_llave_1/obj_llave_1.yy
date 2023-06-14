@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_green",
-    "path": "sprites/spr_green/spr_green.yy",
+    "name": "spr_llave",
+    "path": "sprites/spr_llave/spr_llave.yy",
   },
   "spriteMaskId": null,
   "visible": true,
