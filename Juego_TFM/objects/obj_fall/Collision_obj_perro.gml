@@ -1,3 +1,4 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-room_restart();
+global.mensaje_perder = "Te has lastimado";
+room_goto(PantallaPerder);

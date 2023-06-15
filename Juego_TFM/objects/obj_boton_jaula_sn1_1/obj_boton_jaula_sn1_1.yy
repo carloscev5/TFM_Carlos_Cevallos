@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_agujero",
-    "path": "sprites/spr_agujero/spr_agujero.yy",
+    "name": "spr_boton",
+    "path": "sprites/spr_boton/spr_boton.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -19,6 +19,8 @@ function scr_inicializar_datos(){
 	global.change_character = false;
 	global.nivel_inicia = false;
 	
+	global.mensaje_perder = "";
+	
 	global.objetivos  = ds_list_create();
 	
 
