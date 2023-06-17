@@ -9,8 +9,17 @@ if(name == "laser_1"){
 			image_index = 0;
 		}
 	}else{
-		image_speed = 1;		
+		image_speed = 1;	
 	}	
+	if(image_speed == 1){
+		if(!audio_is_playing(snd_alerta_laser_1)){
+			audio_play_sound(snd_alerta_laser_1, 10, true);
+		}
+	}else{
+		if(audio_is_playing(snd_alerta_laser_1)){
+			audio_stop_sound(snd_alerta_laser_1);
+		}
+	}
 }
 
 if(name == "laser_2"){
@@ -24,4 +33,16 @@ if(name == "laser_2"){
 	}else{
 		image_speed = 1;		
 	}	
+	if(image_speed == 1){
+		if(!audio_is_playing(snd_alerta_laser_2)){
+			audio_play_sound(snd_alerta_laser_2, 10, true);
+		}
+	}else{
+		if(audio_is_playing(snd_alerta_laser_2)){
+			audio_stop_sound(snd_alerta_laser_2);
+		}
+	}
 }
+
+
+

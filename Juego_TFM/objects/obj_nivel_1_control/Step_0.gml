@@ -34,6 +34,7 @@ if(obj_perro.esta_corriendo && instance_exists(jaula_perro_1)){
 		instance_destroy(jaula_perro_1);
 		instance_destroy(jaula_perro_2);
 		instance_destroy(jaula_perro_3);
+		audio_play_sound(snd_jaula_rota, 10, false);
 		ds_list_add(global.objetivos, 1);		
 		scr_guardar_partida();
 	}
@@ -53,6 +54,7 @@ if(obj_cuy.esta_corriendo && instance_exists(jaula_cuy_1)){
 	|| collision_rectangle(x_aux1, y_aux1, x_aux2 + obj_cuy.vel, y_aux2, jaula_cuy_2,false, true)){	
 		instance_destroy(jaula_cuy_1);
 		instance_destroy(jaula_cuy_2);
+		audio_play_sound(snd_jaula_rota, 10, false);
 		ds_list_add(global.objetivos, 2);	
 		scr_guardar_partida();
 	}

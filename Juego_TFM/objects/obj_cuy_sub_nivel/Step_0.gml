@@ -175,10 +175,14 @@ if(arr){
 
 			vel = vi;
 			esta_comiendo = true;
+			if(!audio_is_playing(snd_cuy_comiendo)){
+				audio_play_sound(snd_cuy_comiendo, 10, true);
+			}
 			esta_corriendo = false;
 			sprite_index = spr_cuy_eat;
 	
 		}else{
+			audio_stop_sound(snd_cuy_comiendo);
 			esta_comiendo = false;
 		}
 #endregion

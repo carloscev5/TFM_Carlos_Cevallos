@@ -5,4 +5,5 @@ if(visible){
 }else{
 	visible = true;	
 }
+audio_play_sound(snd_laser, 10, false);
 puede_cambiar = true;

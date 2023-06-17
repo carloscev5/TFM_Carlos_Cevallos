@@ -16,4 +16,5 @@ if(visible){
 		laser_1.visible = false;
 	}	
 }
+audio_play_sound(snd_laser, 10, false);
 puede_cambiar = true;

@@ -159,12 +159,7 @@ if izq_pre || izq{
 	}
 	#endregion 
 
-		if(esta_empujando){
-		sprite_index = spr_gato_push;
-	}
 
-
-	
 }else{
 	
 	global.change_character = false;

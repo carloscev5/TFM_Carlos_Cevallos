@@ -215,6 +215,7 @@ if izq_pre || izq{
 #region Ladrar
 if(lad){
 	sprite_index = spr_perro_bark;
+	audio_play_sound(snd_ladrido_perro, 10, false);
 	esta_ladrando = true;
 }
 #endregion

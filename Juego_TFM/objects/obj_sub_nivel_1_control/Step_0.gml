@@ -35,6 +35,7 @@ if(!se_rompe_plataforma){
 
 	if(instance_exists(piso_fragil)){	
 		instance_destroy(piso_fragil);
+		audio_play_sound(snd_romper_piso_madera, 10, false);
 		ds_list_add(global.objetivos, 7);		
 		scr_guardar_partida();
 	}
