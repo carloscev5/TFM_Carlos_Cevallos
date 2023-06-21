@@ -22,3 +22,4 @@ global.nivel = 1;
 scr_cargar_estado_nivel();
 eventos_actualizados = false;
 jaula_techo.x = -1000;
+obj_puerta_jaula_gato.y = -640;

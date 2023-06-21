@@ -5,10 +5,12 @@ if(!eventos_actualizados){
 		instance_destroy(jaula_perro_1);
 		instance_destroy(jaula_perro_2);
 		instance_destroy(jaula_perro_3);
+		instance_destroy(obj_jaula_1);
 	}
 	if(ds_list_find_index(global.objetivos, 2) >= 0){
 		instance_destroy(jaula_cuy_1);
 		instance_destroy(jaula_cuy_2);
+		instance_destroy(obj_jaula_2);
 	}
 	if(ds_list_find_index(global.objetivos, 3) >= 0){
 			laser_1.visible = true;
@@ -26,6 +28,7 @@ if(!eventos_actualizados){
 		instance_destroy(jaula_gato_3);
 		laser_2.visible = true;
 		laser_1.visible = false;
+		obj_puerta_jaula_gato.y = 640;
 	}
 	if(ds_list_find_index(global.objetivos, 8) >= 0){
 		obj_mover_1.x = 3120;
@@ -42,12 +45,13 @@ if(!eventos_actualizados){
 		jaula_techo.x = 4032;
 		laser_2.visible = false;
 		laser_1.visible = true;
+		obj_puerta_jaula_gato.y = -640;
 	}
 	if(ds_list_find_index(global.objetivos, 11) >= 0){
 		laser_2.visible = false;
 		laser_1.visible = true;
 		obj_mover_1.solid = false;
-		obj_mover_1.x = 2224;
+		obj_mover_1.x = 2180;
 		laser_2.esta_danado = true;
 		laser_1.esta_danado = true;
 	}
