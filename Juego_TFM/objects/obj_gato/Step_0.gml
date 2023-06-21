@@ -71,23 +71,16 @@ if izq_pre || izq{
 
 	esta_empujando = false;
 	if der && !izq {
-				
 		if(place_free(x+vel, y)){
 			x+= vel;
 			esta_caminando = true;
 		}else{
-			
 			var ground = collision_rectangle(xmed1+vel,y,xmed2+vel,y+sprite_height,obj_mover_1,false,false);
 			if(ground){
-		
 				ground.x = ground.x+vel;
 				esta_empujando = true;
-		
 			}
 		}
-		
-
-
 	}
 
 	if izq && !der{

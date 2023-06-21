@@ -14,8 +14,8 @@ if(!se_rompe_plataforma){
 	var y_aux1 = (obj_cuy_sub_nivel.y);
 	var y_aux2 = (obj_cuy_sub_nivel.y + obj_cuy_sub_nivel.sprite_height);
 	
-	var x_aux12 = (obj_ratona_1.x - 35);
-	var x_aux22 = (obj_ratona_1.x + 35);
+	var x_aux12 = (obj_ratona_1.x - 125);
+	var x_aux22 = (obj_ratona_1.x + 125);
 	var y_aux12 = (obj_ratona_1.y);
 	var y_aux22 = (obj_ratona_1.y + obj_ratona_1.sprite_height);
 	if(collision_rectangle(x_aux1, y_aux1, x_aux2, y_aux2+100, piso_fragil,false, true)

@@ -1,5 +1,6 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
+audio_stop_all();
 acertijos_completados = false;
 
 
@@ -15,4 +16,4 @@ eventos_actualizados = false;
 se_rompe_plataforma = false;
 estan_dos = false;
 obj_boton_jaula_sn1_2.x = -100;
-obj_ratona_1.y = 302;
+obj_ratona_1.y = 222;

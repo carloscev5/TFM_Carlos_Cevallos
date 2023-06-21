@@ -3,8 +3,6 @@
 if(global.active_character == 1){
 	
 	if(!global.change_character && global.nivel_inicia && !esta_ladrando){
-		
-	
 
 #region Verificar teclas
 der = keyboard_check(global.right) or gamepad_axis_value(global.gp, gp_axislh) > 0.25 or gamepad_button_check(global.gp, gp_padr);
@@ -18,8 +16,6 @@ corr = keyboard_check(global.run) or gamepad_button_check(global.gp, gp_face4);
 nsal = keyboard_check_released(global.jump) or gamepad_button_check_released(global.gp, gp_face2);
 lad = keyboard_check_pressed(global.special) or gamepad_button_check_pressed(global.gp, gp_face3);
 #endregion
-
-
 
 #region Gravedad
 if place_free(x, y+1){

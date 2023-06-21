@@ -20,6 +20,7 @@ if(!eventos_actualizados){
 	if(ds_list_find_index(global.objetivos, 4) >= 0){
 			laser_1.visible = false;
 			laser_2.visible = true;
+			obj_ratona_viendo_1.sprite_index = spr_ratona_dentro;
 	}
 	if(ds_list_find_index(global.objetivos, 6) >= 0){
 		instance_destroy(jaula_gato_3);

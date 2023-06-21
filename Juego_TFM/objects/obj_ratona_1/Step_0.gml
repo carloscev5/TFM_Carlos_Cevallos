@@ -10,9 +10,11 @@ if vspeed >= 32 {vspeed = 32;}
 if(ld){
 
 	x = x + vel;
+	image_xscale = -1;
 	
 }else{
 	
 	x = x - vel;
+	image_xscale = 1;
 	
 }

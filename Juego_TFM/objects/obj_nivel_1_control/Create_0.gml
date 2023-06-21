@@ -1,8 +1,10 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
+audio_stop_all();
 acertijos_completados = false;
 
 global.nivel_inicia = false;
+
 global.active_character = 1;
 global.change_character = true;
 
