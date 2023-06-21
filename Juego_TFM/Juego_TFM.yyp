@@ -53,6 +53,7 @@
   "resources": [
     {"id":{"name":"obj_agujero_sn1_2","path":"objects/obj_agujero_sn1_2/obj_agujero_sn1_2.yy",},},
     {"id":{"name":"snd_abrir_jaula","path":"sounds/snd_abrir_jaula/snd_abrir_jaula.yy",},},
+    {"id":{"name":"obj_boton_nivel_1","path":"objects/obj_boton_nivel_1/obj_boton_nivel_1.yy",},},
     {"id":{"name":"spr_perro_jump","path":"sprites/spr_perro_jump/spr_perro_jump.yy",},},
     {"id":{"name":"spr_perro_bark","path":"sprites/spr_perro_bark/spr_perro_bark.yy",},},
     {"id":{"name":"spr_control","path":"sprites/spr_control/spr_control.yy",},},
@@ -138,6 +139,7 @@
     {"id":{"name":"spr_cuy_eat","path":"sprites/spr_cuy_eat/spr_cuy_eat.yy",},},
     {"id":{"name":"obj_laser_1","path":"objects/obj_laser_1/obj_laser_1.yy",},},
     {"id":{"name":"scr_cargar_controles","path":"scripts/scr_cargar_controles/scr_cargar_controles.yy",},},
+    {"id":{"name":"spr_boton_nivel_1","path":"sprites/spr_boton_nivel_1/spr_boton_nivel_1.yy",},},
     {"id":{"name":"obj_nivel_1_control","path":"objects/obj_nivel_1_control/obj_nivel_1_control.yy",},},
     {"id":{"name":"SubNivel1","path":"rooms/SubNivel1/SubNivel1.yy",},},
     {"id":{"name":"spr_perro_fall","path":"sprites/spr_perro_fall/spr_perro_fall.yy",},},
