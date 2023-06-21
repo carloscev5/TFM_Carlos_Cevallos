@@ -18,28 +18,32 @@ if(!eventos_actualizados){
 			instance_destroy(cristal_1);
 			nuevo_piso.x = nuevo_piso.xstart;
 			nuevo_piso.y = nuevo_piso.ystart;
+			if(obj_cuy.x <= 2100){
+				laser_1.visible = false;
+				laser_2.visible = true;
+			}
 	}
-	if(ds_list_find_index(global.objetivos, 4) >= 0){
-			laser_1.visible = false;
-			laser_2.visible = true;
-			obj_ratona_viendo_1.sprite_index = spr_ratona_dentro;
-	}
-	if(ds_list_find_index(global.objetivos, 6) >= 0){
+	if(ds_list_find_index(global.objetivos, 5) >= 0){
 		instance_destroy(jaula_gato_3);
 		laser_2.visible = true;
 		laser_1.visible = false;
 		obj_puerta_jaula_gato.y = 640;
 	}
-	if(ds_list_find_index(global.objetivos, 8) >= 0){
+	if(ds_list_find_index(global.objetivos, 7) >= 0){
 		obj_mover_1.x = 3120;
 		obj_mover_1.y = 2304;
 		laser_2.visible = false;
 		laser_1.visible = true;
 	}
-	if(ds_list_find_index(global.objetivos, 9) >= 0){
+	if(ds_list_find_index(global.objetivos, 8) >= 0){
 		instance_destroy(obj_llave_1);
 		laser_2.visible = true;
 		laser_1.visible = false;
+		obj_ratona_viendo_1.sprite_index = spr_ratona_saliendo;
+	}
+	if(ds_list_find_index(global.objetivos, 9) >= 0){
+		laser_1.visible = false;
+		laser_2.visible = true;
 	}
 	if(ds_list_find_index(global.objetivos, 10) >= 0){
 		jaula_techo.x = 4032;
@@ -51,7 +55,7 @@ if(!eventos_actualizados){
 		laser_2.visible = false;
 		laser_1.visible = true;
 		obj_mover_1.solid = false;
-		obj_mover_1.x = 2180;
+		obj_mover_1.x = 2230;
 		laser_2.esta_danado = true;
 		laser_1.esta_danado = true;
 	}

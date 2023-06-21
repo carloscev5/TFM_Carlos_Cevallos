@@ -11,7 +11,7 @@ if(cuy){
 }
 
 if(tiempo_vida == 0){
-	ds_list_add(global.objetivos, 5);
+	ds_list_add(global.objetivos, 4);
 	scr_guardar_partida();
 	instance_destroy();
 }

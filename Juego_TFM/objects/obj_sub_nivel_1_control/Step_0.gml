@@ -1,5 +1,10 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
+if keyboard_check_pressed(ord("C"))
+{
+    screen_save(working_directory + "Test2.png")
+}
+
 
 if keyboard_check_pressed(ord("R")) or gamepad_button_check_pressed(global.gp, gp_select){
 	audio_stop_all();
@@ -36,7 +41,7 @@ if(!se_rompe_plataforma){
 	if(instance_exists(piso_fragil)){	
 		instance_destroy(piso_fragil);
 		audio_play_sound(snd_romper_piso_madera, 10, false);
-		ds_list_add(global.objetivos, 7);		
+		ds_list_add(global.objetivos, 6);		
 		scr_guardar_partida();
 	}
 		

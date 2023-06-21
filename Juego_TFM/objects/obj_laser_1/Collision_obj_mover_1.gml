@@ -3,8 +3,8 @@
 other.solid = false;
 if(!esta_danado){
 	if(puede_cambiar){
-		if(ds_list_find_index(global.objetivos, 8) == -1){
-			ds_list_add(global.objetivos, 8);	
+		if(ds_list_find_index(global.objetivos, 7) == -1){
+			ds_list_add(global.objetivos, 7);	
 			scr_guardar_partida();
 			alarm[0] = room_speed*vel_cambio;
 			puede_cambiar = false;

@@ -3,10 +3,11 @@
 audio_stop_all();
 acertijos_completados = false;
 
-
-if(ds_list_find_index(global.objetivos, 4) == -1){
-	ds_list_add(global.objetivos, 4);
-	scr_guardar_partida();
+if(ds_list_find_index(global.objetivos, 8) >= 0 ){
+	if(ds_list_find_index(global.objetivos, 9) == -1){
+		ds_list_add(global.objetivos, 9);
+		scr_guardar_partida();
+	}
 }
 
 scr_cargar_partida();
