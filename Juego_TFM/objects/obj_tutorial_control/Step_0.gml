@@ -25,3 +25,9 @@ if keyboard_check_pressed(ord("I")){
 		}
 	}
 }
+
+if(instance_exists(obj_mover_1) && global.nivel_inicia){
+	if(obj_mover_1.caer){
+		instance_destroy(obj_mover_1);	
+	}
+}

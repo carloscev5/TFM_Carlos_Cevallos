@@ -44,6 +44,7 @@ if(ld){
 		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor_no_solid,false,false);
 		if(ground){
 		
+		caer = false;
 			y = ground.y-sprite_height;	
 			vspeed = 0;
 			solid = true;
@@ -67,9 +68,11 @@ if(ld){
 			y = ground.y-sprite_height;	
 			vspeed = 0;
 			solid = true;
+			caer = false;
 
 		
 		}
+		
 		
 	}
 

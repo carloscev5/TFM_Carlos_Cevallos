@@ -13,3 +13,4 @@ global.cuy_py = 2350;
 global.cuy_sub_nivel_px = 0;
 global.cuy_sub_nivel_py = 0;
 global.nivel = 0;
+global.tiene_llave = false;
