@@ -104,6 +104,7 @@ if(ld){
 	if(caer){
 		
 		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_mover_1,false,false);
+		
 		if(ground){
 		
 			y = ground.y-sprite_height;	
@@ -153,6 +154,66 @@ if(ld){
 }
 }
 #endregion
+
+#region Colision con floor moving
+if(ld){
+		
+	if(caer){
+		
+		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor_moving,false,false);
+		if(ground){
+		
+			y = ground.y-sprite_height;	
+			vspeed = 0;
+		
+		}
+	}else if(saltando){
+		
+		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor_moving,false,false);
+		if(ground){
+		
+			y = ground.y+ground.sprite_height-1;	
+			vspeed = 0;
+		
+		}
+	
+		
+	}
+	var ground = collision_rectangle(xmed1,y,xmed2,y+sprite_height+1,obj_floor_moving,false,false);
+		if(ground){
+			x += ground.vel;
+		}
+	
+	
+}else{
+
+
+		
+	if(caer){
+		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor_moving,false,false);
+		if(ground){
+		
+			y = ground.y-sprite_height;	
+			vspeed = 0;
+		}
+	}else if(saltando){
+		
+		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor_moving,false,false);
+		if(ground){
+			y = ground.y+ground.sprite_height-1;	
+			vspeed = 0;
+		}
+		
+	}
+	var ground = collision_rectangle(xmed1,y,xmed2,y+sprite_height+1,obj_floor_moving,false,false);
+	if(ground){
+		x += ground.vel;
+	}
+	
+}
+#endregion
+
+
 
 if(ld){
 

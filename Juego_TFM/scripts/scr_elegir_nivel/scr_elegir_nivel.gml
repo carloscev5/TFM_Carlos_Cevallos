@@ -4,10 +4,11 @@ function scr_elegir_nivel(nivel){
 	switch(nivel){
 	
 		case 0:
+			room_goto(Tutorial);
+			break;
 		case 1:
 			room_goto(Nivel1);
 			break;
-		
 		case 12:
 			room_goto(SubNivel1);
 			break;

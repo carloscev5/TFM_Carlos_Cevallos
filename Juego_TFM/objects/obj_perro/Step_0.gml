@@ -168,8 +168,11 @@ if izq_pre || izq{
 
 			vel = vi;
 			esta_corriendo = false;
+			esta_cavando = true;	
 			sprite_index = spr_perro_dig;
 	
+		}else{
+			esta_cavando = false;	
 		}
 #endregion
 

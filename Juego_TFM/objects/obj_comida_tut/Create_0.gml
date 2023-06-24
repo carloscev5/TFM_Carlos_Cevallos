@@ -1,4 +1,6 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-xmed1 = x-sprite_width/2;
-xmed2 = x+sprite_width/2;
+tiempo_vida = 100;
+distancia = 36;
+image_index=0;
+image_speed=0;

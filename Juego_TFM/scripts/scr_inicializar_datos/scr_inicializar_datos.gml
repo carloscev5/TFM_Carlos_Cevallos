@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para más información
 function scr_inicializar_datos(){
 	
-	global.nivel = 1;
+	global.nivel = 0;
 	
 	global.partida = 1;
 	
@@ -18,6 +18,7 @@ function scr_inicializar_datos(){
 	global.active_character = 1;
 	global.change_character = false;
 	global.nivel_inicia = false;
+	global.tiene_llave = false;
 	
 	global.mensaje_perder = "";
 	
