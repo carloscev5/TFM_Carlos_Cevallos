@@ -31,3 +31,18 @@ if(instance_exists(obj_mover_1) && global.nivel_inicia){
 		instance_destroy(obj_mover_1);	
 	}
 }
+
+if(obj_perro.esta_ladrando && instance_exists(obj_bloqueo)){
+		var x_aux1 = (obj_perro.x - 65);
+		var x_aux2 = (obj_perro.x + 65);
+		var y_aux1 = (obj_perro.y);
+		var y_aux2 = (obj_perro.y + obj_perro.sprite_height);
+		if(obj_perro.ld){
+			if(collision_rectangle(x_aux1 + 500, y_aux1, x_aux2, y_aux2, obj_bloqueo,false, true)){	
+			instance_destroy(obj_bloqueo);
+		}
+		
+	}
+	
+
+}

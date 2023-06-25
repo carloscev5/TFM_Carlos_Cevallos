@@ -113,6 +113,7 @@
     {"id":{"name":"PantallaPerder","path":"rooms/PantallaPerder/PantallaPerder.yy",},},
     {"id":{"name":"obj_meta_1","path":"objects/obj_meta_1/obj_meta_1.yy",},},
     {"id":{"name":"obj_agujero_sn1_1","path":"objects/obj_agujero_sn1_1/obj_agujero_sn1_1.yy",},},
+    {"id":{"name":"obj_meta_tut","path":"objects/obj_meta_tut/obj_meta_tut.yy",},},
     {"id":{"name":"spr_cuy_run","path":"sprites/spr_cuy_run/spr_cuy_run.yy",},},
     {"id":{"name":"obj_agujero_sub_nivel_1","path":"objects/obj_agujero_sub_nivel_1/obj_agujero_sub_nivel_1.yy",},},
     {"id":{"name":"obj_comida_tut","path":"objects/obj_comida_tut/obj_comida_tut.yy",},},
