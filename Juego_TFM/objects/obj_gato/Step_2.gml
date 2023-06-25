@@ -1,10 +1,7 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-if(global.active_character == 2){
+
 	
-
-
-
 #region Colision con floor
 if(ld){
 		
@@ -213,7 +210,19 @@ if(ld){
 }
 #endregion
 
-
+#region Colision con plataform moving
+	var ground = collision_rectangle(xmed1,y-11,xmed2,y+sprite_height+11,obj_plataform_moving,false,false);
+	if(ground && (ground.solid || global.active_character != 2)){
+		if(ground.pos == "arr" || ground.pos == "aba"){
+			y = ground.y-sprite_height;	
+			vspeed = 0;
+		}else{
+			x = ground.x;	
+			vspeed = 0;
+		}
+		
+	}
+#endregion
 
 if(ld){
 
@@ -225,4 +234,3 @@ if(ld){
 	
 }
 
-}
