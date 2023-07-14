@@ -10,6 +10,7 @@
     {"name":"agujeros","order":4,"path":"folders/Objetos/agujeros.yy",},
     {"name":"controls","order":2,"path":"folders/Objetos/controls.yy",},
     {"name":"nivel_1","order":3,"path":"folders/Objetos/nivel_1.yy",},
+    {"name":"nivel_2","order":8,"path":"folders/Objetos/nivel_2.yy",},
     {"name":"objetos_animados","order":6,"path":"folders/Objetos/objetos_animados.yy",},
     {"name":"sub_nivel_1","order":5,"path":"folders/Objetos/sub_nivel_1.yy",},
     {"name":"tutorial","order":7,"path":"folders/Objetos/tutorial.yy",},
@@ -30,7 +31,6 @@
     {"name":"nivel_1","order":4,"path":"folders/Sprites/nivel_1.yy",},
     {"name":"ratona","order":7,"path":"folders/Sprites/ratona.yy",},
     {"name":"walls","order":3,"path":"folders/Sprites/walls.yy",},
-    {"name":"nivel_2","order":8,"path":"folders/Objetos/nivel_2.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_agujero_sn1_2","order":3,"path":"objects/obj_agujero_sn1_2/obj_agujero_sn1_2.yy",},

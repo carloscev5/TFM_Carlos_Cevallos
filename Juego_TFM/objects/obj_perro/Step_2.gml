@@ -151,15 +151,6 @@ if(ld){
 }
 #endregion
 
-#region Colision con plataform moving
-	var ground = collision_rectangle(xmed1,y-11,xmed2,y+sprite_height+11,obj_plataform_moving,false,false);
-	if(ground && ground.solid){
-		y = ground.y-sprite_height;	
-		vspeed = 0;
-	}
-#endregion
-
-
 if(ld){
 
 	image_xscale = -1;
