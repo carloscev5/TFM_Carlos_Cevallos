@@ -7,5 +7,4 @@ cont = 0;
 vel = 2;
 limit = 200;
 pos = "der";
-y_ant = y;
-x_ant = x;
+depth = -1;

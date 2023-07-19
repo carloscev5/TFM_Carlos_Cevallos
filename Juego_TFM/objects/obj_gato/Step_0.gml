@@ -1,13 +1,29 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
+#region Colision con plataform moving
+if(vspeed >= 0){
+	var ground = collision_rectangle(xmed1,y+sprite_height+vspeed-6,xmed2,y+sprite_height+vspeed+6,obj_plataform_moving,false,false);
+	if(ground){
+		if(global.active_character == 1){
+			ground.solid = true;
+		}else{
+			ground.solid = false;
+		}
+		y = ground.y-sprite_height;
+		vspeed = 0;	
+	}
+}
+#endregion
+
+
 if(global.active_character == 2){
 	
 		if(!global.change_character){
 		
 	
 	
-	#region Verificar teclas
+#region Verificar teclas
 der = keyboard_check(global.right) or gamepad_axis_value(global.gp, gp_axislh) > 0.25 or gamepad_button_check(global.gp, gp_padr);
 izq = keyboard_check(global.left) or gamepad_axis_value(global.gp, gp_axislh) < -0.25 or gamepad_button_check(global.gp, gp_padl);
 der_pre = keyboard_check_pressed(global.right) or gamepad_axis_value(global.gp, gp_axislh) > 0.25 or gamepad_button_check_pressed(global.gp, gp_padr);
@@ -18,7 +34,6 @@ sal = keyboard_check_pressed(global.jump) or gamepad_button_check_pressed(global
 corr = keyboard_check(global.run) or gamepad_button_check(global.gp, gp_face4) or gamepad_button_check(global.gp, gp_face3); 
 nsal = keyboard_check_released(global.jump) or gamepad_button_check_released(global.gp, gp_face2) or gamepad_button_check_released(global.gp, gp_face1); 
 #endregion
-
 
 #region Gravedad
 if place_free(x, y+1){

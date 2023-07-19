@@ -1,6 +1,23 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
+
+#region Colision con plataform moving
+if(vspeed >= 0){
+	var ground = collision_rectangle(xmed1,y+sprite_height+vspeed-6,xmed2,y+sprite_height+vspeed+6,obj_plataform_moving,false,false);
+	if(ground){
+		if(global.active_character == 1){
+			ground.solid = true;
+		}else{
+			ground.solid = false;
+		}
+		y = ground.y-sprite_height;
+		vspeed = 0;	
+	}
+}
+#endregion
+
 if(global.active_character == 1){
+	
 	
 	if(!global.change_character && global.nivel_inicia && !esta_ladrando){
 

@@ -12,3 +12,4 @@ salto = 36; // Salto del Personaje
 esta_corriendo = false;
 puede_entrar_agujero = false;
 esta_comiendo = false;
+esta_plataforma = false;

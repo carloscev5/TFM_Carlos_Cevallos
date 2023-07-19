@@ -1,5 +1,20 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
+#region Colision con plataform moving
+if(vspeed >= 0){
+	var ground = collision_rectangle(xmed1,y+sprite_height+vspeed-6,xmed2,y+sprite_height+vspeed+6,obj_plataform_moving,false,false);
+	if(ground){
+		if(ground.solid || esta_plataforma){
+			ground.solid = true;
+			y = ground.y-sprite_height;
+			esta_plataforma = true;
+			vspeed = 0;	
+		}
+	}else{
+		esta_plataforma = false;
+	}
+}
+#endregion
 
 
 #region Verificar teclas

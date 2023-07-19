@@ -3,10 +3,13 @@
 
 	
 #region Colision con floor
-if(ld){
-		
-	if(caer){
-		
+	if(saltando){
+		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor,false,false);
+		if(ground){
+			y = ground.y+ground.sprite_height-1;	
+			vspeed = 0;
+		}
+	}else{
 		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor,false,false);
 		if(ground){
 		
@@ -15,224 +18,57 @@ if(ld){
 		
 		}
 	}
-	
-	if(saltando){
-		
-		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor,false,false);
-		if(ground){
-		
-			y = ground.y+ground.sprite_height-1;	
-			vspeed = 0;
-		
-		}
-	
-		
-	}
-	
-	
-}else{
-
-
-		
-	if(caer){
-		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor,false,false);
-		if(ground){
-		
-			y = ground.y-sprite_height;	
-			vspeed = 0;
-		}
-	}
-	if(saltando){
-		
-		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor,false,false);
-		if(ground){
-			y = ground.y+ground.sprite_height-1;	
-			vspeed = 0;
-		}
-		
-	}
-	
-}
 #endregion
 
 #region Colision con floor no solid
-if(ld){
-		
 	if(caer){
-		
 		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor_no_solid,false,false);
 		if(ground && ground.solid){
-		
 			y = ground.y-sprite_height;	
 			vspeed = 0;
 			
-		
 		}
 	}
-
-	
-	
-}else{
-
-
-		
-	if(caer){
-		
-		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor_no_solid,false,false);
-		if(ground  && ground.solid){
-		
-			y = ground.y-sprite_height;	
-			vspeed = 0;
-		
-		}
-		
-	}
-
-	
-}
 #endregion
 
 #region Colision con objetos a mover
 if(instance_exists(obj_mover_1) && obj_mover_1.solid = true){
-
-
-if(ld){
-		
-	if(caer){
-		
-		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_mover_1,false,false);
-		
-		if(ground){
-		
-			y = ground.y-sprite_height;	
-			
-			vspeed = 0;
-		
-		}
-	}
-	
 	if(saltando){
-		
-		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_mover_1,false,false);
-		if(ground){
-		
-			y = ground.y+ground.sprite_height-1;	
-			vspeed = 0;
-		
-		}
-	
-		
-	}
-	
-	
-}else{
-
-
-		
-	if(caer){
-		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_mover_1,false,false);
-		if(ground){
-		
-			y = ground.y-sprite_height;	
-			
-			vspeed = 0;
-		}
-	}
-	if(saltando){
-		
 		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_mover_1,false,false);
 		if(ground){
 			y = ground.y+ground.sprite_height-1;	
 			vspeed = 0;
 		}
-		
+	}else{
+		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_mover_1,false,false);
+		if(ground){
+			y = ground.y-sprite_height;	
+			vspeed = 0;	
+		}
 	}
-	
-}
 }
 #endregion
 
 #region Colision con floor moving
-if(ld){
-		
-	if(caer){
-		
-		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor_moving,false,false);
-		if(ground){
-		
-			y = ground.y-sprite_height;	
-			vspeed = 0;
-		
-		}
-	}else if(saltando){
-		
-		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor_moving,false,false);
-		if(ground){
-		
-			y = ground.y+ground.sprite_height-1;	
-			vspeed = 0;
-		
-		}
-	
-		
-	}
-	var ground = collision_rectangle(xmed1,y,xmed2,y+sprite_height+1,obj_floor_moving,false,false);
+	if(saltando){
+		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed+1,obj_floor_moving,false,false);
 		if(ground){
 			x += ground.vel;
-		}
-	
-	
-}else{
-
-
-		
-	if(caer){
-		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor_moving,false,false);
-		if(ground){
-		
-			y = ground.y-sprite_height;	
-			vspeed = 0;
-		}
-	}else if(saltando){
-		
-		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor_moving,false,false);
-		if(ground){
 			y = ground.y+ground.sprite_height-1;	
 			vspeed = 0;
 		}
+	}else{
+		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed+1,obj_floor_moving,false,false);
+		if(ground){
+			x += ground.vel;
+			y = ground.y-sprite_height;	
+			vspeed = 0;
 		
+		}
 	}
-	var ground = collision_rectangle(xmed1,y,xmed2,y+sprite_height+1,obj_floor_moving,false,false);
-	if(ground){
-		x += ground.vel;
-	}
+#endregion
 	
-}
-#endregion
-
-#region Colision con plataform moving
-	var ground = collision_rectangle(xmed1,y-11,xmed2,y+sprite_height+11,obj_plataform_moving,false,false);
-	if(ground && (ground.solid || global.active_character != 2)){
-		y = ground.y-sprite_height;	
-		vspeed = 0;
-		if(ground.pos == "izq"){
-			if(ground.esta_regresando){
-				x += ground.vel;	
-			}else{
-				x -= ground.vel;
-			}
-		}
-		if(ground.pos == "der"){
-			if(ground.esta_regresando){
-				x -= ground.vel;	
-			}else{
-				x += ground.vel;
-			}	
-		}
-		
-	}
-#endregion
-
+	
 if(ld){
 
 	image_xscale = -1;
