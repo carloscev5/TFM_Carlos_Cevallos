@@ -12,3 +12,6 @@ salto = 54; // Salto del Personaje
 esta_caminando = false;
 esta_empujando = false;
 esta_plataforma = false;
+
+der = false;
+izq = false;

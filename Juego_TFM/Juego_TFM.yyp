@@ -116,7 +116,6 @@
     {"id":{"name":"snd_ladrido_perro","path":"sounds/snd_ladrido_perro/snd_ladrido_perro.yy",},},
     {"id":{"name":"PantallaPerder","path":"rooms/PantallaPerder/PantallaPerder.yy",},},
     {"id":{"name":"obj_meta_1","path":"objects/obj_meta_1/obj_meta_1.yy",},},
-    {"id":{"name":"obj_plataform_moving","path":"objects/obj_plataform_moving/obj_plataform_moving.yy",},},
     {"id":{"name":"obj_agujero_sn1_1","path":"objects/obj_agujero_sn1_1/obj_agujero_sn1_1.yy",},},
     {"id":{"name":"obj_meta_tut","path":"objects/obj_meta_tut/obj_meta_tut.yy",},},
     {"id":{"name":"spr_cuy_run","path":"sprites/spr_cuy_run/spr_cuy_run.yy",},},

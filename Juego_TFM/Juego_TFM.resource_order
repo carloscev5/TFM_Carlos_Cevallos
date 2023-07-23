@@ -91,7 +91,6 @@
     {"name":"snd_ladrido_perro","order":5,"path":"sounds/snd_ladrido_perro/snd_ladrido_perro.yy",},
     {"name":"PantallaPerder","order":4,"path":"rooms/PantallaPerder/PantallaPerder.yy",},
     {"name":"obj_meta_1","order":3,"path":"objects/obj_meta_1/obj_meta_1.yy",},
-    {"name":"obj_plataform_moving","order":5,"path":"objects/obj_plataform_moving/obj_plataform_moving.yy",},
     {"name":"obj_agujero_sn1_1","order":2,"path":"objects/obj_agujero_sn1_1/obj_agujero_sn1_1.yy",},
     {"name":"obj_meta_tut","order":4,"path":"objects/obj_meta_tut/obj_meta_tut.yy",},
     {"name":"spr_cuy_run","order":2,"path":"sprites/spr_cuy_run/spr_cuy_run.yy",},
