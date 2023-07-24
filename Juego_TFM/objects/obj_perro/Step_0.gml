@@ -2,8 +2,7 @@
 // Puede escribir su código en este editor
 
 if(global.active_character == 1){
-	
-	
+
 	if(!global.change_character && global.nivel_inicia && !esta_ladrando){
 
 #region Verificar teclas
@@ -214,7 +213,8 @@ if izq_pre || izq{
 	#endregion 
 
 #region Ladrar
-if(lad){
+if(lad && ((!saltando && !caer) || 
+ (caer && vspeed < 30))){
 	sprite_index = spr_perro_bark;
 	audio_play_sound(snd_ladrido_perro, 10, false);
 	esta_ladrando = true;
