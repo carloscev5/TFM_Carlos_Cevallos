@@ -13,5 +13,11 @@ if(!eventos_actualizados){
 		instance_destroy(obj_rendija_1);
 		instance_destroy(obj_boton_2_2);
 	}
+	if(ds_list_find_index(global.objetivos, 5) >= 0){
+		obj_plataforma_salida_1.x = 448;
+	}
+	if(ds_list_find_index(global.objetivos, 7) >= 0){
+		global.posicion_raton_gordo = 3;
+	}
 	eventos_actualizados = true;
 }

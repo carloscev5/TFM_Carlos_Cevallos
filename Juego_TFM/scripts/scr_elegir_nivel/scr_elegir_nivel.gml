@@ -15,6 +15,12 @@ function scr_elegir_nivel(nivel){
 		case 2:
 			room_goto(Nivel2);
 			break;
+		case 21:
+			room_goto(SubNivel2_1);
+			break;
+		case 22:
+			room_goto(SubNivel2_2);
+			break;
 	
 	}
 }

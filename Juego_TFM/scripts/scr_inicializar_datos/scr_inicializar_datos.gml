@@ -24,5 +24,7 @@ function scr_inicializar_datos(){
 	
 	global.objetivos  = ds_list_create();
 	
+	global.posicion_raton_gordo = 1;
+	global.gato_en_agujero_raton_gordo = false;
 
 }

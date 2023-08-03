@@ -20,6 +20,13 @@ if(ds_list_size(global.objetivos) == 0){
 	scr_guardar_partida();
 }
 
+if(ds_list_find_index(global.objetivos, 9) >= 0 ){
+	if(ds_list_find_index(global.objetivos, 10) == -1){
+		ds_list_add(global.objetivos, 10);
+		scr_guardar_partida();
+	}
+}
+
 scr_cargar_partida();
 global.nivel = 2;
 scr_cargar_estado_nivel();
