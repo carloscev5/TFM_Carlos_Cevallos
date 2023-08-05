@@ -177,6 +177,7 @@
     {"id":{"name":"scr_cargar_controles","path":"scripts/scr_cargar_controles/scr_cargar_controles.yy",},},
     {"id":{"name":"spr_boton_nivel_1","path":"sprites/spr_boton_nivel_1/spr_boton_nivel_1.yy",},},
     {"id":{"name":"obj_nivel_1_control","path":"objects/obj_nivel_1_control/obj_nivel_1_control.yy",},},
+    {"id":{"name":"obj_bolsa","path":"objects/obj_bolsa/obj_bolsa.yy",},},
     {"id":{"name":"SubNivel2_2","path":"rooms/SubNivel2_2/SubNivel2_2.yy",},},
     {"id":{"name":"SubNivel1","path":"rooms/SubNivel1/SubNivel1.yy",},},
     {"id":{"name":"spr_perro_fall","path":"sprites/spr_perro_fall/spr_perro_fall.yy",},},

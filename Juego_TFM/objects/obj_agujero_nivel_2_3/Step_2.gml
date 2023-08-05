@@ -2,7 +2,6 @@
 // Puede escribir su código en este editor
 if(!global.gato_en_agujero_raton_gordo && global.posicion_raton_gordo == 2){
 	r = irandom_range(0,1)
-	show_debug_message(r);
 	if(r == 1){
 		global.posicion_raton_gordo = 1;	
 	}else{

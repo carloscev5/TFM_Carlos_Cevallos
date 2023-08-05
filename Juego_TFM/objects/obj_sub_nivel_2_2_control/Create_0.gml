@@ -6,8 +6,8 @@ acertijos_completados = false;
 if(ds_list_find_index(global.objetivos, 7) >= 0 ){
 	if(ds_list_find_index(global.objetivos, 8) == -1){
 		ds_list_add(global.objetivos, 8);
-		obj_cuy_sub_nivel.x = 1536;
-		obj_cuy_sub_nivel.y = 864;
+		obj_cuy_sub_nivel.x = 128;
+		obj_cuy_sub_nivel.y = 750;
 		scr_guardar_partida();
 	}
 }
