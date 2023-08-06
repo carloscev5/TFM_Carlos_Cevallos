@@ -87,6 +87,7 @@
     {"name":"spr_boca_laser","order":14,"path":"sprites/spr_boca_laser/spr_boca_laser.yy",},
     {"name":"Main","order":3,"path":"rooms/Main/Main.yy",},
     {"name":"obj_agujero_sub_nivel_2_1","order":3,"path":"objects/obj_agujero_sub_nivel_2_1/obj_agujero_sub_nivel_2_1.yy",},
+    {"name":"Nivel3","order":10,"path":"rooms/Nivel3/Nivel3.yy",},
     {"name":"obj_cable_1","order":7,"path":"objects/obj_cable_1/obj_cable_1.yy",},
     {"name":"Tutorial","order":6,"path":"rooms/Tutorial/Tutorial.yy",},
     {"name":"obj_raton_gordo_con_comida","order":3,"path":"objects/obj_raton_gordo_con_comida/obj_raton_gordo_con_comida.yy",},

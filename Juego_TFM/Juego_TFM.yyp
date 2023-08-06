@@ -112,6 +112,7 @@
     {"id":{"name":"spr_boca_laser","path":"sprites/spr_boca_laser/spr_boca_laser.yy",},},
     {"id":{"name":"Main","path":"rooms/Main/Main.yy",},},
     {"id":{"name":"obj_agujero_sub_nivel_2_1","path":"objects/obj_agujero_sub_nivel_2_1/obj_agujero_sub_nivel_2_1.yy",},},
+    {"id":{"name":"Nivel3","path":"rooms/Nivel3/Nivel3.yy",},},
     {"id":{"name":"obj_cable_1","path":"objects/obj_cable_1/obj_cable_1.yy",},},
     {"id":{"name":"Tutorial","path":"rooms/Tutorial/Tutorial.yy",},},
     {"id":{"name":"obj_raton_gordo_con_comida","path":"objects/obj_raton_gordo_con_comida/obj_raton_gordo_con_comida.yy",},},
@@ -211,6 +212,7 @@
     {"roomId":{"name":"Nivel2","path":"rooms/Nivel2/Nivel2.yy",},},
     {"roomId":{"name":"SubNivel2_1","path":"rooms/SubNivel2_1/SubNivel2_1.yy",},},
     {"roomId":{"name":"SubNivel2_2","path":"rooms/SubNivel2_2/SubNivel2_2.yy",},},
+    {"roomId":{"name":"Nivel3","path":"rooms/Nivel3/Nivel3.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

@@ -9,6 +9,7 @@ xmed2 = x+65;
 		if(ground){
 			y = ground.y+ground.sprite_height-1;	
 			vspeed = 0;
+			esta_ladrando = false;
 		}
 	}else{
 		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor,false,false);
@@ -16,6 +17,7 @@ xmed2 = x+65;
 		
 			y = ground.y-sprite_height;	
 			vspeed = 0;
+			esta_ladrando = false;
 		
 		}
 	}
@@ -27,7 +29,7 @@ xmed2 = x+65;
 		if(ground && ground.solid){
 			y = ground.y-sprite_height;	
 			vspeed = 0;
-			
+			esta_ladrando = false;
 		}
 	}
 #endregion
