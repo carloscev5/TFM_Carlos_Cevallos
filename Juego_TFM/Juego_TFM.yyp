@@ -58,6 +58,7 @@
     {"id":{"name":"snd_abrir_jaula","path":"sounds/snd_abrir_jaula/snd_abrir_jaula.yy",},},
     {"id":{"name":"obj_boton_nivel_1","path":"objects/obj_boton_nivel_1/obj_boton_nivel_1.yy",},},
     {"id":{"name":"spr_perro_jump","path":"sprites/spr_perro_jump/spr_perro_jump.yy",},},
+    {"id":{"name":"obj_nivel_3_control","path":"objects/obj_nivel_3_control/obj_nivel_3_control.yy",},},
     {"id":{"name":"spr_perro_bark","path":"sprites/spr_perro_bark/spr_perro_bark.yy",},},
     {"id":{"name":"spr_control","path":"sprites/spr_control/spr_control.yy",},},
     {"id":{"name":"scr_cargar_estado_sub_nivel","path":"scripts/scr_cargar_estado_sub_nivel/scr_cargar_estado_sub_nivel.yy",},},

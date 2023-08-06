@@ -2,7 +2,6 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para más información
 function scr_elegir_nivel(nivel){
 	switch(nivel){
-	
 		case 0:
 			room_goto(Tutorial);
 			break;
@@ -21,6 +20,8 @@ function scr_elegir_nivel(nivel){
 		case 22:
 			room_goto(SubNivel2_2);
 			break;
-	
+		case 3:
+			room_goto(Nivel3);
+			break;
 	}
 }

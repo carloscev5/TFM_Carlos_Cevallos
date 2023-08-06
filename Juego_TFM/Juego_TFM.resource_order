@@ -38,6 +38,7 @@
     {"name":"snd_abrir_jaula","order":3,"path":"sounds/snd_abrir_jaula/snd_abrir_jaula.yy",},
     {"name":"obj_boton_nivel_1","order":8,"path":"objects/obj_boton_nivel_1/obj_boton_nivel_1.yy",},
     {"name":"spr_perro_jump","order":3,"path":"sprites/spr_perro_jump/spr_perro_jump.yy",},
+    {"name":"obj_nivel_3_control","order":9,"path":"objects/obj_nivel_3_control/obj_nivel_3_control.yy",},
     {"name":"spr_perro_bark","order":7,"path":"sprites/spr_perro_bark/spr_perro_bark.yy",},
     {"name":"spr_control","order":15,"path":"sprites/spr_control/spr_control.yy",},
     {"name":"scr_cargar_estado_sub_nivel","order":7,"path":"scripts/scr_cargar_estado_sub_nivel/scr_cargar_estado_sub_nivel.yy",},
