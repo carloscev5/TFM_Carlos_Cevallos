@@ -10,7 +10,7 @@ if(perro){
 
 if(tiempo_vida == 0){
 	global.tiene_llave = true;
-	ds_list_add(global.objetivos, 16);	
+	ds_list_add(global.objetivos, 10);	
 	audio_play_sound(snd_recoger_llave, 10, false);
 	scr_guardar_partida();
 	instance_destroy();

@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "sub_nivel_2",
-    "path": "folders/Objetos/sub_nivel_2.yy",
+    "name": "nivel_2",
+    "path": "folders/Objetos/nivel_2.yy",
   },
   "parentObjectId": null,
   "persistent": false,

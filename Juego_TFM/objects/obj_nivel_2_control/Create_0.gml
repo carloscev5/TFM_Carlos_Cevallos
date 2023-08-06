@@ -7,6 +7,7 @@ global.nivel_inicia = false;
 
 global.active_character = 1;
 global.change_character = true;
+global.tiene_llave = false;
 
 if(ds_list_size(global.objetivos) == 0){
 	global.perro_px = 196;

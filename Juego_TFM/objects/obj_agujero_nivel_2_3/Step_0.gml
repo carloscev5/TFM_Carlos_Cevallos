@@ -5,13 +5,12 @@ if(global.posicion_raton_gordo == 1){
 	if(perro){
 		if(!perro.ld && perro.esta_ladrando){
 			
-			if(ds_list_find_index(global.objetivos, 13) == -1){
+			if(ds_list_find_index(global.objetivos, 6) == -1){
 				global.posicion_raton_gordo = 3;
-				ds_list_add(global.objetivos, 7);
 				scr_guardar_partida();
 			}else{
-				if(ds_list_find_index(global.objetivos,14) == -1){
-					ds_list_add(global.objetivos, 14);
+				if(ds_list_find_index(global.objetivos,7) == -1){
+					ds_list_add(global.objetivos, 7);
 					scr_guardar_partida();
 					alarm[0] = room_speed*3;
 					alarm[1] = room_speed*5;
