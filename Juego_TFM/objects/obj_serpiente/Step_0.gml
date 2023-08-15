@@ -1,6 +1,6 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-if(esta_quieto){
+if(esta_quieto && ds_list_find_index(global.objetivos, 1) == -1){
 	var perro = collision_rectangle(x-distancia,y,x+sprite_width-distancia,y+sprite_height,obj_perro,false,false);
 		if(perro){
 			if(perro.ld && !ladro && perro.esta_ladrando){
