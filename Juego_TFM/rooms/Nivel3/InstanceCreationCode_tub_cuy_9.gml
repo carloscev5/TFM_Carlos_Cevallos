@@ -1,0 +1,1 @@
+objeto = tub_cuy_1;
