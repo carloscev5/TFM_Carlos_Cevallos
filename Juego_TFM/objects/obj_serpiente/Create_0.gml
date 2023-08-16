@@ -9,3 +9,4 @@ esta_quieto = true;
 esta_hacia_adelante = false;
 distancia = sprite_width/4;
 ladro = false;
+puede_moverse = true;

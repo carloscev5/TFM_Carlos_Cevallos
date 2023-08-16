@@ -4,10 +4,12 @@
 #region Colision con floor
 		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor,false,false);
 		if(ground){
-			solid = false;
 			y = ground.y-sprite_height;	
-			ds_list_add(global.objetivos, 2);	
-			scr_guardar_partida();
+			if(ds_list_find_index(global.objetivos, 2) == -1){
+				solid = false;
+				ds_list_add(global.objetivos, 2);	
+				scr_guardar_partida();
+			}
 			vspeed = 0;
 		}
 		

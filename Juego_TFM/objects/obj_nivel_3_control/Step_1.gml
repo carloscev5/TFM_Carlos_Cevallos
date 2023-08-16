@@ -7,6 +7,9 @@ if(!eventos_actualizados){
 		instance_destroy(obj_hueco_1);
 	}
 	if(ds_list_find_index(global.objetivos, 2) >= 0){
+		obj_serpiente.x = 2120;
+		obj_serpiente.puede_moverse = false;
+		obj_serpiente_2.x = 2432;
 		instance_destroy(obj_erizo);
 		obj_mover_3.solid = false;
 		obj_mover_3.x = 2824;
@@ -19,8 +22,16 @@ if(!eventos_actualizados){
 	if(ds_list_find_index(global.objetivos, 4) >= 0){
 		instance_destroy(cristal_3);
 	}
-	
-	
-	
+	if(ds_list_find_index(global.objetivos, 5) >= 0){
+		instance_destroy(obj_piso_electrocutado_1);
+		instance_destroy(obj_encima_3);
+		obj_mover_3.solid = true;
+	}	
+	if(ds_list_find_index(global.objetivos, 6) >= 0){
+		instance_destroy(obj_mover_3);
+		instance_destroy(obj_serpiente_2);
+	}
 	eventos_actualizados = true;
 }
+
+	
