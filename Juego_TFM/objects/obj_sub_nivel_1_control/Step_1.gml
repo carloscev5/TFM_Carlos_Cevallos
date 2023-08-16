@@ -12,7 +12,7 @@ if(!eventos_actualizados){
 		obj_ratona_1.y = 636;
 	}
 	if(ds_list_find_index(global.objetivos, 8) >= 0){
-		obj_boton_jaula_sn1_2.x = 1408;
+		obj_boton_jaula_sn1_2.x = 1312;
 	}
 	if(ds_list_find_index(global.objetivos, 10) >= 0){
 		instance_destroy(obj_boton_jaula_sn1_2);

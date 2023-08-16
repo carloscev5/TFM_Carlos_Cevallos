@@ -37,6 +37,7 @@ if(!eventos_actualizados){
 	}
 	if(ds_list_find_index(global.objetivos, 8) >= 0){
 		instance_destroy(obj_llave_1);
+		global.tiene_llave = true;
 		laser_2.visible = true;
 		laser_1.visible = false;
 		obj_ratona_viendo_1.sprite_index = spr_ratona_saliendo;

@@ -9,7 +9,6 @@ if(perro){
 }
 
 if(tiempo_vida == 0){
-	global.tiene_llave = true;
 	ds_list_add(global.objetivos, 1);	
 	scr_guardar_partida();
 	instance_destroy();
