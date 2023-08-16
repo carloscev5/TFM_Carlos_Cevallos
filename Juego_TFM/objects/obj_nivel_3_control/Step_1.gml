@@ -31,6 +31,21 @@ if(!eventos_actualizados){
 		instance_destroy(obj_mover_3);
 		instance_destroy(obj_serpiente_2);
 	}
+	if(ds_list_find_index(global.objetivos, 7) >= 0){
+		instance_destroy(obj_piso_electrocutado_2);
+		instance_destroy(obj_boton_3_2);
+	}
+	if(ds_list_find_index(global.objetivos, 8) >= 0){
+		obj_ratona_3.x = 1344;
+		obj_ratona_3.y = 1920;
+		obj_ratona_3.puede_moverse = false;
+		instance_create_layer(1248, 1920, "Objects", obj_llave_3);
+	}
+	if(ds_list_find_index(global.objetivos, 9) >= 0){
+		global.tiene_llave = true;
+		instance_destroy(obj_llave_3);
+	}
+
 	eventos_actualizados = true;
 }
 
