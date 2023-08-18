@@ -11,7 +11,8 @@ if vspeed >= 32 {vspeed = 32;}
 #endregion 
 
 #region Verificar si cae 
-if vspeed >= 0 && place_free(x, y+1){
+if vspeed >= 0 && place_free(x, y+1)
+&& !place_meeting(x, y+1, obj_floor_no_solid){
 
 	caer = true;
 	

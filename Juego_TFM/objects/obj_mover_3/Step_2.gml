@@ -16,11 +16,10 @@
 #endregion
 
 #region Colision con floor no solid
-	if(caer){
+
 		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor_no_solid,false,false);
 		if(ground){
 			y = ground.y-sprite_height;	
 			vspeed = 0;
 		}
-	}
 #endregion

@@ -33,6 +33,7 @@
     {"name":"nivel_1","order":4,"path":"folders/Sprites/nivel_1.yy",},
     {"name":"ratona","order":7,"path":"folders/Sprites/ratona.yy",},
     {"name":"walls","order":3,"path":"folders/Sprites/walls.yy",},
+    {"name":"nivel_3","order":23,"path":"folders/Sprites/nivel_3.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_serpiente","order":21,"path":"sprites/spr_serpiente/spr_serpiente.yy",},
@@ -71,6 +72,7 @@
     {"name":"snd_alerta_laser_2","order":10,"path":"sounds/snd_alerta_laser_2/snd_alerta_laser_2.yy",},
     {"name":"spr_aqua","order":22,"path":"sprites/spr_aqua/spr_aqua.yy",},
     {"name":"obj_gato","order":1,"path":"objects/obj_gato/obj_gato.yy",},
+    {"name":"obj_erizo_animado","order":9,"path":"objects/obj_erizo_animado/obj_erizo_animado.yy",},
     {"name":"Nivel2","order":7,"path":"rooms/Nivel2/Nivel2.yy",},
     {"name":"spr_ratona_saliendo","order":1,"path":"sprites/spr_ratona_saliendo/spr_ratona_saliendo.yy",},
     {"name":"obj_jaula_3","order":5,"path":"objects/obj_jaula_3/obj_jaula_3.yy",},
@@ -134,6 +136,7 @@
     {"name":"snd_cuy_comiendo","order":6,"path":"sounds/snd_cuy_comiendo/snd_cuy_comiendo.yy",},
     {"name":"spr_ratona_dentro","order":4,"path":"sprites/spr_ratona_dentro/spr_ratona_dentro.yy",},
     {"name":"spr_gato_jump_med","order":4,"path":"sprites/spr_gato_jump_med/spr_gato_jump_med.yy",},
+    {"name":"spr_erizo_asustado","order":1,"path":"sprites/spr_erizo_asustado/spr_erizo_asustado.yy",},
     {"name":"obj_jaula","order":3,"path":"objects/obj_jaula/obj_jaula.yy",},
     {"name":"spr_gato_push","order":5,"path":"sprites/spr_gato_push/spr_gato_push.yy",},
     {"name":"obj_salida_2","order":12,"path":"objects/obj_salida_2/obj_salida_2.yy",},
