@@ -33,8 +33,8 @@
     {"name":"nivel_1","order":4,"path":"folders/Sprites/nivel_1.yy",},
     {"name":"nivel_3","order":23,"path":"folders/Sprites/nivel_3.yy",},
     {"name":"ratona","order":7,"path":"folders/Sprites/ratona.yy",},
-    {"name":"walls","order":3,"path":"folders/Sprites/walls.yy",},
     {"name":"serpiente","order":24,"path":"folders/Sprites/serpiente.yy",},
+    {"name":"walls","order":3,"path":"folders/Sprites/walls.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_serpiente","order":21,"path":"sprites/spr_serpiente/spr_serpiente.yy",},
@@ -171,6 +171,7 @@
     {"name":"spr_perro_fall","order":4,"path":"sprites/spr_perro_fall/spr_perro_fall.yy",},
     {"name":"snd_alerta_laser_1","order":9,"path":"sounds/snd_alerta_laser_1/snd_alerta_laser_1.yy",},
     {"name":"obj_fall","order":2,"path":"objects/obj_fall/obj_fall.yy",},
+    {"name":"spr_ratona_saliendo_tuberia","order":6,"path":"sprites/spr_ratona_saliendo_tuberia/spr_ratona_saliendo_tuberia.yy",},
     {"name":"obj_cable_masticar","order":2,"path":"objects/obj_cable_masticar/obj_cable_masticar.yy",},
     {"name":"spr_perro_dig","order":6,"path":"sprites/spr_perro_dig/spr_perro_dig.yy",},
     {"name":"spr_jaula_2","order":2,"path":"sprites/spr_jaula_2/spr_jaula_2.yy",},
