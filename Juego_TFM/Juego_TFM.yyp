@@ -201,6 +201,7 @@
     {"id":{"name":"obj_mover_1","path":"objects/obj_mover_1/obj_mover_1.yy",},},
     {"id":{"name":"spr_cuy_eat","path":"sprites/spr_cuy_eat/spr_cuy_eat.yy",},},
     {"id":{"name":"obj_agujero_tut_2","path":"objects/obj_agujero_tut_2/obj_agujero_tut_2.yy",},},
+    {"id":{"name":"spr_serpiente_metida","path":"sprites/spr_serpiente_metida/spr_serpiente_metida.yy",},},
     {"id":{"name":"obj_laser_1","path":"objects/obj_laser_1/obj_laser_1.yy",},},
     {"id":{"name":"scr_cargar_controles","path":"scripts/scr_cargar_controles/scr_cargar_controles.yy",},},
     {"id":{"name":"spr_boton_nivel_1","path":"sprites/spr_boton_nivel_1/spr_boton_nivel_1.yy",},},
