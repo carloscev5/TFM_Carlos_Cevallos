@@ -5,8 +5,6 @@ if(cont_cambio > 0 && obj_ratona_3.puede_moverse){
 	sprite_index = spr_ratona_saliendo_tuberia;
 	cont_cambio--;
 	image_speed = 0;
-	show_debug_message(cont_cambia);
-	show_debug_message(cont_cambio);
 	switch(cont_cambio){
 		case 5:
 			image_index = 3;
