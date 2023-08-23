@@ -114,6 +114,7 @@
     {"name":"obj_cable_1","order":7,"path":"objects/obj_cable_1/obj_cable_1.yy",},
     {"name":"Tutorial","order":6,"path":"rooms/Tutorial/Tutorial.yy",},
     {"name":"obj_raton_gordo_con_comida","order":3,"path":"objects/obj_raton_gordo_con_comida/obj_raton_gordo_con_comida.yy",},
+    {"name":"spr_raton_gordo_corr_bol","order":8,"path":"sprites/spr_raton_gordo_corr_bol/spr_raton_gordo_corr_bol.yy",},
     {"name":"snd_recoger_llave","order":12,"path":"sounds/snd_recoger_llave/snd_recoger_llave.yy",},
     {"name":"obj_solid","order":5,"path":"objects/obj_solid/obj_solid.yy",},
     {"name":"snd_romper_piso_madera","order":4,"path":"sounds/snd_romper_piso_madera/snd_romper_piso_madera.yy",},

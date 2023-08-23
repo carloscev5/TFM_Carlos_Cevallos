@@ -2,14 +2,10 @@
 // Puede escribir su código en este editor
 if(ds_list_find_index(global.objetivos, 7) == -1){
 	if(global.posicion_raton_gordo == 1 || global.posicion_raton_gordo == 3){
-	
-	
 		if(posicion_actual != global.posicion_raton_gordo && cont_cambio == 0){
 			cont_cambio = 10;
 			posicion_actual = global.posicion_raton_gordo;
 		}
-
-	
 		if(cont_cambio > 0){
 			sprite_index = spr_raton_gordo_entrando;
 			cont_cambio--;
@@ -30,11 +26,11 @@ if(ds_list_find_index(global.objetivos, 7) == -1){
 				case 6:
 					image_index = 1;
 					if(global.posicion_raton_gordo == 1){
-						x = obj_agujero_nivel_2_3.x;
-						y = obj_agujero_nivel_2_3.y;
+						x = obj_agujero_nivel_2_3.x-125;
+						y = obj_agujero_nivel_2_3.y+40;
 					}else{
-						x = obj_agujero_nivel_2_4.x;
-						y = obj_agujero_nivel_2_4.y;				
+						x = obj_agujero_nivel_2_4.x-125;
+						y = obj_agujero_nivel_2_4.y+40;				
 					}
 					break;
 				case 5:
@@ -58,11 +54,11 @@ if(ds_list_find_index(global.objetivos, 7) == -1){
 			esta_cambiando = false;
 			sprite_index = spr_raton_gordo_viendo;
 			if(global.posicion_raton_gordo == 1){
-				x = obj_agujero_nivel_2_3.x;
-				y = obj_agujero_nivel_2_3.y;
+				x = obj_agujero_nivel_2_3.x-125;
+				y = obj_agujero_nivel_2_3.y+40;
 			}else{
-				x = obj_agujero_nivel_2_4.x;
-				y = obj_agujero_nivel_2_4.y;				
+				x = obj_agujero_nivel_2_4.x-125;
+				y = obj_agujero_nivel_2_4.y+40;				
 			}
 		}
 	}else{

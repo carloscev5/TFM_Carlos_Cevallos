@@ -13,3 +13,4 @@ esta_corriendo = false;
 puede_entrar_agujero = false;
 esta_comiendo = false;
 esta_plataforma = false;
+depth = -1;
