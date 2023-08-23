@@ -75,6 +75,7 @@
     {"name":"inst_55AA0C4C","path":"rooms/Nivel3/Nivel3.yy",},
     {"name":"inst_2B9DF8AC","path":"rooms/Nivel3/Nivel3.yy",},
     {"name":"inst_12CBADFE","path":"rooms/Nivel3/Nivel3.yy",},
+    {"name":"inst_75123023","path":"rooms/Nivel3/Nivel3.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -88,6 +89,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_55AA0C4C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_serpiente_animada_2","path":"objects/obj_serpiente_animada_2/obj_serpiente_animada_2.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":5396.0,"y":1676.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2B9DF8AC","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_boton_general","path":"objects/obj_boton_general/obj_boton_general.yy",},"properties":[],"rotation":0.0,"scaleX":0.616,"scaleY":0.648,"x":1952.0,"y":1758.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_12CBADFE","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_boton_general","path":"objects/obj_boton_general/obj_boton_general.yy",},"properties":[],"rotation":0.0,"scaleX":0.856,"scaleY":0.856,"x":4348.0,"y":1834.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_75123023","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_encima_animado","path":"objects/obj_encima_animado/obj_encima_animado.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4212.0,"y":802.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Characters","depth":200,"effectEnabled":true,"effectType":null,"gridX":4,"gridY":4,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_8255D5D_3_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_perro","path":"objects/obj_perro/obj_perro.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":284.0,"y":148.0,},
