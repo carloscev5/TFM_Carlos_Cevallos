@@ -4,6 +4,7 @@
   "name": "obj_floor_moving",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -28,8 +29,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_green",
-    "path": "sprites/spr_green/spr_green.yy",
+    "name": "spr_transportador_der",
+    "path": "sprites/spr_transportador_der/spr_transportador_der.yy",
   },
   "spriteMaskId": null,
   "visible": true,
