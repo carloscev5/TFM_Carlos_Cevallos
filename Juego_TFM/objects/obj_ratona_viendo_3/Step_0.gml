@@ -1,6 +1,10 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
+if((x_ant != obj_ratona_3.x-74 || y_ant != obj_ratona_3.y-56) && cont_cambio ==0){
+	cont_cambio = 5;
+}
+
 if(cont_cambio > 0 && obj_ratona_3.puede_moverse){
 	sprite_index = spr_ratona_saliendo_tuberia;
 	cont_cambio--;

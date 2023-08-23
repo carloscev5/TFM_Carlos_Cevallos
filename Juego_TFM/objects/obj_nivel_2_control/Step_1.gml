@@ -30,7 +30,7 @@ if(!eventos_actualizados){
 	if(ds_list_find_index(global.objetivos, 8) >= 0
 	&& ds_list_find_index(global.objetivos, 9) == -1){
 		instance_create_layer(2688, 384, "Objects", obj_bolsa);
-		alarm[1] = room_speed*5;
+		alarm[1] = room_speed*2;
 	}
 	if(ds_list_find_index(global.objetivos, 9) >= 0){
 		instance_create_layer(2688, 384, "Objects", obj_bolsa);
