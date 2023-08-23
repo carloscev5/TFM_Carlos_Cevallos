@@ -41,6 +41,7 @@
     {"name":"inst_346D48EC","path":"rooms/Nivel2/Nivel2.yy",},
     {"name":"inst_1E6C66BA","path":"rooms/Nivel2/Nivel2.yy",},
     {"name":"inst_16A544E4","path":"rooms/Nivel2/Nivel2.yy",},
+    {"name":"inst_7B55246F","path":"rooms/Nivel2/Nivel2.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -51,6 +52,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_346D48EC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_raton_gordo_animado_1","path":"objects/obj_raton_gordo_animado_1/obj_raton_gordo_animado_1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":5700.0,"y":2140.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1E6C66BA","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_boton_general","path":"objects/obj_boton_general/obj_boton_general.yy",},"properties":[],"rotation":0.0,"scaleX":0.696,"scaleY":0.712,"x":1688.0,"y":2254.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_16A544E4","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_boton_general","path":"objects/obj_boton_general/obj_boton_general.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0400001,"x":4368.0,"y":2172.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7B55246F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_fuego","path":"objects/obj_fuego/obj_fuego.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3848.0,"y":2092.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Characters","depth":200,"effectEnabled":true,"effectType":null,"gridX":4,"gridY":4,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_8255D5D_3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_perro","path":"objects/obj_perro/obj_perro.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":196.0,"y":2132.0,},
