@@ -11,13 +11,13 @@ if(cont_cambio > 0 && obj_ratona_3.puede_moverse){
 	image_speed = 0;
 	switch(cont_cambio){
 		case 5:
-			image_index = 3;
-			break;
-		case 4:
 			image_index = 2;
 			break;
-		case 3:
+		case 4:
 			image_index = 1;
+			break;
+		case 3:
+			image_index = 0;
 			if(obj_ratona_3.x == 1344){
 				image_angle = 90;
 				x = 1288;
@@ -28,10 +28,10 @@ if(cont_cambio > 0 && obj_ratona_3.puede_moverse){
 			}
 			break;
 		case 2:
-			image_index = 2;
+			image_index = 1;
 			break;
 		case 1:
-			image_index = 3;
+			image_index = 2;
 			break;
 	}
 }else{
