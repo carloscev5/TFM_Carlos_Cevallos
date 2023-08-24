@@ -27,8 +27,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "nivel_3",
-    "path": "folders/Sprites/nivel_3.yy",
+    "name": "nivel_2",
+    "path": "folders/Sprites/nivel_2.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

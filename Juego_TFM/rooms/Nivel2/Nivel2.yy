@@ -42,6 +42,8 @@
     {"name":"inst_1E6C66BA","path":"rooms/Nivel2/Nivel2.yy",},
     {"name":"inst_16A544E4","path":"rooms/Nivel2/Nivel2.yy",},
     {"name":"inst_7B55246F","path":"rooms/Nivel2/Nivel2.yy",},
+    {"name":"inst_F9FAF4B","path":"rooms/Nivel2/Nivel2.yy",},
+    {"name":"inst_12F818C5","path":"rooms/Nivel2/Nivel2.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -84,6 +86,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1FA778F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_floor_no_solid","path":"objects/obj_floor_no_solid/obj_floor_no_solid.yy",},"properties":[],"rotation":0.0,"scaleX":5.75,"scaleY":5.0,"x":3136.0,"y":1856.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"obj_plataforma_salida_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_floor_no_solid","path":"objects/obj_floor_no_solid/obj_floor_no_solid.yy",},"properties":[],"rotation":0.0,"scaleX":0.75,"scaleY":5.0,"x":-832.0,"y":2112.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_26FBCFDD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_floor_no_solid","path":"objects/obj_floor_no_solid/obj_floor_no_solid.yy",},"properties":[],"rotation":0.0,"scaleX":1.5,"scaleY":5.0,"x":2304.0,"y":2112.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_F9FAF4B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_pared_cuy","path":"objects/obj_pared_cuy/obj_pared_cuy.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3008.0,"y":1792.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_12F818C5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_pared_cuy","path":"objects/obj_pared_cuy/obj_pared_cuy.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1984.0,"y":384.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Triggers","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"trigger_tuberia","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_tuberia_trigger_2","path":"objects/obj_tuberia_trigger_2/obj_tuberia_trigger_2.yy",},"properties":[],"rotation":0.0,"scaleX":5.0,"scaleY":1.0,"x":320.0,"y":1952.0,},
