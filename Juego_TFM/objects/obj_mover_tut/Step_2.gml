@@ -8,6 +8,9 @@ if(ld){
 		
 		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_floor,false,false);
 		if(ground){
+			var caja = instance_create_layer(x,y-700,"Arte",obj_caja_rota);
+			caja.image_xscale = 2;
+			caja.image_yscale = 2;
 			instance_destroy();
 		}
 	}

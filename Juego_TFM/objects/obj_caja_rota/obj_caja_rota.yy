@@ -1,9 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_agujero_sub_nivel_2_2",
+  "name": "obj_caja_rota",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_cuy_sub_nivel","path":"objects/obj_cuy_sub_nivel/obj_cuy_sub_nivel.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_agujero",
-    "path": "sprites/spr_agujero/spr_agujero.yy",
+    "name": "spr_caja_rota",
+    "path": "sprites/spr_caja_rota/spr_caja_rota.yy",
   },
   "spriteMaskId": null,
   "visible": true,
