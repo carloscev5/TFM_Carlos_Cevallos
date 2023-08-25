@@ -4,7 +4,6 @@ if(!eventos_actualizados){
 	if(ds_list_find_index(global.objetivos, 1) >= 0){
 		obj_serpiente.x = 2370;
 		obj_serpiente.alarm[0] = room_speed*1;
-		instance_destroy(obj_hueco_1);
 	}
 	if(ds_list_find_index(global.objetivos, 2) >= 0){
 		obj_serpiente.x = 2120;

@@ -37,7 +37,6 @@ if(esta_hacia_adelante){
 		cont_mov = 0;
 	}
 }
-
-if(!instance_exists(obj_hueco_1)){
+if(ds_list_find_index(global.objetivos, 1) >= 0){
 	xstart = 2120;
 }
