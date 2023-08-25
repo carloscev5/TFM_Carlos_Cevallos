@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_lechuga",
-    "path": "sprites/spr_lechuga/spr_lechuga.yy",
+    "name": "spr_monticulo_quieto",
+    "path": "sprites/spr_monticulo_quieto/spr_monticulo_quieto.yy",
   },
   "spriteMaskId": null,
   "visible": true,

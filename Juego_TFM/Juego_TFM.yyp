@@ -52,6 +52,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"serpiente","folderPath":"folders/Sprites/serpiente.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"transportador","folderPath":"folders/Sprites/transportador.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"walls","folderPath":"folders/Sprites/walls.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"monticulo","folderPath":"folders/Sprites/monticulo.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -62,6 +63,7 @@
   "resources": [
     {"id":{"name":"spr_serpiente","path":"sprites/spr_serpiente/spr_serpiente.yy",},},
     {"id":{"name":"obj_agujero_sn1_2","path":"objects/obj_agujero_sn1_2/obj_agujero_sn1_2.yy",},},
+    {"id":{"name":"spr_monticulo_quieto","path":"sprites/spr_monticulo_quieto/spr_monticulo_quieto.yy",},},
     {"id":{"name":"obj_raton_gordo_animado_2","path":"objects/obj_raton_gordo_animado_2/obj_raton_gordo_animado_2.yy",},},
     {"id":{"name":"spr_fuego","path":"sprites/spr_fuego/spr_fuego.yy",},},
     {"id":{"name":"spr_raton_gordo_triste","path":"sprites/spr_raton_gordo_triste/spr_raton_gordo_triste.yy",},},
@@ -208,6 +210,7 @@
     {"id":{"name":"spr_gato_jump_med","path":"sprites/spr_gato_jump_med/spr_gato_jump_med.yy",},},
     {"id":{"name":"spr_erizo_asustado","path":"sprites/spr_erizo_asustado/spr_erizo_asustado.yy",},},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
+    {"id":{"name":"spr_monticulo_mov","path":"sprites/spr_monticulo_mov/spr_monticulo_mov.yy",},},
     {"id":{"name":"obj_jaula","path":"objects/obj_jaula/obj_jaula.yy",},},
     {"id":{"name":"spr_gato_push","path":"sprites/spr_gato_push/spr_gato_push.yy",},},
     {"id":{"name":"spr_perro_idle","path":"sprites/spr_perro_idle/spr_perro_idle.yy",},},

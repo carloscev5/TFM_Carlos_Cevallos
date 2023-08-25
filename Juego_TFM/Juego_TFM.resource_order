@@ -38,6 +38,7 @@
     {"name":"serpiente","order":24,"path":"folders/Sprites/serpiente.yy",},
     {"name":"transportador","order":26,"path":"folders/Sprites/transportador.yy",},
     {"name":"walls","order":3,"path":"folders/Sprites/walls.yy",},
+    {"name":"monticulo","order":30,"path":"folders/Sprites/monticulo.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_serpiente","order":21,"path":"sprites/spr_serpiente/spr_serpiente.yy",},
@@ -171,6 +172,7 @@
     {"name":"obj_mover_tut","order":5,"path":"objects/obj_mover_tut/obj_mover_tut.yy",},
     {"name":"spr_gato_jump_med","order":4,"path":"sprites/spr_gato_jump_med/spr_gato_jump_med.yy",},
     {"name":"spr_erizo_asustado","order":1,"path":"sprites/spr_erizo_asustado/spr_erizo_asustado.yy",},
+    {"name":"spr_monticulo_mov","order":1,"path":"sprites/spr_monticulo_mov/spr_monticulo_mov.yy",},
     {"name":"obj_jaula","order":3,"path":"objects/obj_jaula/obj_jaula.yy",},
     {"name":"spr_gato_push","order":5,"path":"sprites/spr_gato_push/spr_gato_push.yy",},
     {"name":"obj_salida_2","order":12,"path":"objects/obj_salida_2/obj_salida_2.yy",},
