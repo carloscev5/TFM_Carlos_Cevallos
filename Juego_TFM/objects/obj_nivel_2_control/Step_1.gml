@@ -38,7 +38,6 @@ if(!eventos_actualizados){
 		obj_piso_mov_2.vel = obj_piso_mov_2.vel * -0.1;
 	}
 	if(ds_list_find_index(global.objetivos, 10) >= 0){
-		instance_destroy(obj_bolsa);
 		global.tiene_llave = true;
 	}
 	eventos_actualizados = true;

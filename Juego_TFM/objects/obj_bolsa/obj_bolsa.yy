@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_lechuga",
-    "path": "sprites/spr_lechuga/spr_lechuga.yy",
+    "name": "spr_bolsa_quieta",
+    "path": "sprites/spr_bolsa_quieta/spr_bolsa_quieta.yy",
   },
   "spriteMaskId": null,
   "visible": true,
