@@ -3,11 +3,11 @@
 
 #region Gravedad
 if place_free(x, y+1){
-	gravity = 2;
+	gravity = 4;
 }else{
 	gravity = 0;
 }
-if vspeed >= 32 {vspeed = 32;}
+if vspeed >= 64 {vspeed = 64;}
 #endregion 
 
 #region Verificar si cae 

@@ -168,11 +168,15 @@ if izq_pre || izq{
 		if aba && !der && !izq && !saltando && !sal && !caer && !arr{
 
 			vel = vi;
+			if(!audio_is_playing(snd_perro_excavando)){
+				audio_play_sound(snd_perro_excavando, 10, true);
+			}
 			esta_corriendo = false;
 			esta_cavando = true;	
 			sprite_index = spr_perro_dig;
 	
 		}else{
+			audio_stop_sound(snd_perro_excavando);
 			esta_cavando = false;	
 		}
 #endregion

@@ -19,6 +19,7 @@ if(!finalizado){
 	}
 
 	if(tiempo_vida <= 0){
+		audio_play_sound(snd_recoger_llave, 10, false);
 		global.tiene_llave = true;
 		finalizado = true;
 		sprite_index = spr_monticulo_quieto;

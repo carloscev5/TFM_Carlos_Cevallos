@@ -12,6 +12,7 @@ if(global.posicion_raton_gordo == 1){
 				if(ds_list_find_index(global.objetivos,7) == -1){
 					ds_list_add(global.objetivos, 7);
 					scr_guardar_partida();
+					audio_play_sound(snd_teletransporte, 10, false);
 					alarm[0] = room_speed*3;
 					alarm[1] = room_speed*5;
 				}

@@ -5,3 +5,4 @@ image_index = 0;
 if(!instance_exists(obj_cable_masticar)){
 	image_index = 2;
 }
+sono = false;

@@ -3,7 +3,7 @@
 if(other.puede_entrar_agujero){	
 	if((ds_list_find_index(global.objetivos, 8) >= 0 && puede_entrar)
 	|| ds_list_find_index(global.objetivos, 8) == -1){
-		scr_cambiar_a_sub_nivel(SubNivel1)
+		scr_cambiar_a_sub_nivel(SubNivel1);
 	}
 }
 

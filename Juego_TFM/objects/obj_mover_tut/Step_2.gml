@@ -11,6 +11,7 @@ if(ld){
 			var caja = instance_create_layer(x,y-700,"Arte",obj_caja_rota);
 			caja.image_xscale = 2;
 			caja.image_yscale = 2;
+			audio_play_sound(snd_caja_rota, 10, false);
 			instance_destroy();
 		}
 	}
