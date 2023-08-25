@@ -133,6 +133,7 @@
     {"id":{"name":"obj_agujero_n2_1","path":"objects/obj_agujero_n2_1/obj_agujero_n2_1.yy",},},
     {"id":{"name":"obj_cuy_sub_nivel","path":"objects/obj_cuy_sub_nivel/obj_cuy_sub_nivel.yy",},},
     {"id":{"name":"scr_guardar_partida","path":"scripts/scr_guardar_partida/scr_guardar_partida.yy",},},
+    {"id":{"name":"spr_naranja","path":"sprites/spr_naranja/spr_naranja.yy",},},
     {"id":{"name":"obj_agujero_sn2_1","path":"objects/obj_agujero_sn2_1/obj_agujero_sn2_1.yy",},},
     {"id":{"name":"spr_transportador_izq","path":"sprites/spr_transportador_izq/spr_transportador_izq.yy",},},
     {"id":{"name":"spr_green","path":"sprites/spr_green/spr_green.yy",},},

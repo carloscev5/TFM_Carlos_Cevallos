@@ -107,6 +107,7 @@
     {"name":"obj_agujero_n2_1","order":4,"path":"objects/obj_agujero_n2_1/obj_agujero_n2_1.yy",},
     {"name":"obj_cuy_sub_nivel","order":3,"path":"objects/obj_cuy_sub_nivel/obj_cuy_sub_nivel.yy",},
     {"name":"scr_guardar_partida","order":6,"path":"scripts/scr_guardar_partida/scr_guardar_partida.yy",},
+    {"name":"spr_naranja","order":5,"path":"sprites/spr_naranja/spr_naranja.yy",},
     {"name":"spr_green","order":8,"path":"sprites/spr_green/spr_green.yy",},
     {"name":"obj_floor_no_solid","order":1,"path":"objects/obj_floor_no_solid/obj_floor_no_solid.yy",},
     {"name":"obj_jaula_2","order":3,"path":"objects/obj_jaula_2/obj_jaula_2.yy",},
