@@ -65,6 +65,22 @@ if(instance_exists(obj_mover_3) && obj_mover_3.solid = true){
 		}
 	}
 }
+
+if(instance_exists(obj_mover_tut) && obj_mover_tut.solid = true){
+	if(saltando){
+		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_mover_tut,false,false);
+		if(ground){
+			y = ground.y+ground.sprite_height-1;	
+			vspeed = 0;
+		}
+	}else{
+		var ground = collision_rectangle(xmed1,y+vspeed,xmed2,y+sprite_height+vspeed,obj_mover_tut,false,false);
+		if(ground){
+			y = ground.y-sprite_height;	
+			vspeed = 0;	
+		}
+	}
+}
 #endregion
 
 #region Colision con floor moving

@@ -36,8 +36,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_caja",
-    "path": "sprites/spr_caja/spr_caja.yy",
+    "name": "spr_caja_metal",
+    "path": "sprites/spr_caja_metal/spr_caja_metal.yy",
   },
   "spriteMaskId": null,
   "visible": true,

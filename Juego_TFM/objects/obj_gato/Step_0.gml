@@ -84,6 +84,11 @@ if izq_pre || izq{
 				ground.x = ground.x+vel;
 				esta_empujando = true;
 			}
+			ground = collision_rectangle(xmed1+vel,y,xmed2+vel,y+sprite_height,obj_mover_tut,false,false);
+			if(ground){
+				ground.x = ground.x+vel;
+				esta_empujando = true;
+			}
 		}
 	}
 
@@ -101,6 +106,13 @@ if izq_pre || izq{
 		
 			}
 			ground = collision_rectangle(xmed1-vel,y,xmed2-vel,y+sprite_height,obj_mover_3,false,false);
+			if(ground){
+		
+				ground.x = ground.x-vel;
+				esta_empujando = true;
+		
+			}
+			ground = collision_rectangle(xmed1-vel,y,xmed2-vel,y+sprite_height,obj_mover_tut,false,false);
 			if(ground){
 		
 				ground.x = ground.x-vel;
