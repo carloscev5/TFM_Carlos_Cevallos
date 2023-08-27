@@ -1,5 +1,10 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
+if keyboard_check_pressed(ord("C"))
+{
+    screen_save(working_directory + "Test.png")
+}
+
 if keyboard_check_pressed(vk_escape)
 {
     room_goto(Main);
