@@ -157,6 +157,7 @@
     {"name":"snd_apagar_fuego","order":19,"path":"sounds/snd_apagar_fuego/snd_apagar_fuego.yy",},
     {"name":"obj_tuberia_cuy","order":5,"path":"objects/obj_tuberia_cuy/obj_tuberia_cuy.yy",},
     {"name":"obj_cristal_animado_tut","order":19,"path":"objects/obj_cristal_animado_tut/obj_cristal_animado_tut.yy",},
+    {"name":"spr_nivel_2","order":3,"path":"sprites/spr_nivel_2/spr_nivel_2.yy",},
     {"name":"spr_cuy_run","order":2,"path":"sprites/spr_cuy_run/spr_cuy_run.yy",},
     {"name":"obj_salida_1","order":11,"path":"objects/obj_salida_1/obj_salida_1.yy",},
     {"name":"spr_yellow","order":20,"path":"sprites/spr_yellow/spr_yellow.yy",},

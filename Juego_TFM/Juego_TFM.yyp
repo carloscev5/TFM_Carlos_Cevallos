@@ -189,6 +189,7 @@
     {"id":{"name":"snd_apagar_fuego","path":"sounds/snd_apagar_fuego/snd_apagar_fuego.yy",},},
     {"id":{"name":"obj_tuberia_cuy","path":"objects/obj_tuberia_cuy/obj_tuberia_cuy.yy",},},
     {"id":{"name":"obj_cristal_animado_tut","path":"objects/obj_cristal_animado_tut/obj_cristal_animado_tut.yy",},},
+    {"id":{"name":"spr_nivel_2","path":"sprites/spr_nivel_2/spr_nivel_2.yy",},},
     {"id":{"name":"spr_cuy_run","path":"sprites/spr_cuy_run/spr_cuy_run.yy",},},
     {"id":{"name":"obj_agujero_sub_nivel_1","path":"objects/obj_agujero_sub_nivel_1/obj_agujero_sub_nivel_1.yy",},},
     {"id":{"name":"obj_salida_1","path":"objects/obj_salida_1/obj_salida_1.yy",},},
