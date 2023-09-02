@@ -4,6 +4,7 @@ function scr_inicializar_datos(){
 	
 	global.nivel = 0;
 	
+	global.esta_nivel = false;
 	global.partida = 1;
 	
 	global.perro_px = 0;

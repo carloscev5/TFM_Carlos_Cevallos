@@ -6,32 +6,21 @@ arr = keyboard_check_pressed(global.up) or gamepad_axis_value(global.gp, gp_axis
 sal = keyboard_check_pressed(global.jump) or gamepad_button_check_pressed(global.gp, gp_face2);
 #endregion
 
-if(aba){
-	posicion +=1;
-	if(posicion == 3){
+if(aba || arr){
+	if(posicion == 0){
+		posicion = 1;
+	}else{
 		posicion = 0;
-	}
-}
-if(arr){
-	posicion -=1;
-	if(posicion == -1){
-		posicion = 2;
 	}
 }
 
 if(sal){
 
-	if(posicion == 0){
-		room_goto(SelectorPartida);
-		
-		/*if(file_exists("partida1.ini")){
+	if(posicion == 1){
+		if(file_exists("partida1.ini")){
 			file_delete("partida1.ini")	
-		}*/
-	}else if(posicion == 1){
-		room_goto(PantallaControles);
-	}else{
-		game_end();	
+		}
 	}
-	
+	room_goto(SelectorPartida);
 	
 }

@@ -5,4 +5,3 @@ scr_inicializar_datos();
 scr_cargar_controles();
 scr_verificar_control();
 posicion = 0;
-global.esta_nivel = false;
