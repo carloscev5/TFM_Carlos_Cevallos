@@ -1,6 +1,6 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-if(!instance_exists(obj_cable_masticar)){
+if(ds_list_find_index(global.objetivos, 4) >= 0){
 	image_index = 2;
 	if(!sono){
 		audio_play_sound(snd_abrir_jaula, 10, false);
