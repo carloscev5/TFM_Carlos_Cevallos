@@ -289,7 +289,7 @@
     {"id":{"name":"spr_jaula_2","path":"sprites/spr_jaula_2/spr_jaula_2.yy",},},
     {"id":{"name":"spr_laser","path":"sprites/spr_laser/spr_laser.yy",},},
     {"id":{"name":"obj_jaula_1","path":"objects/obj_jaula_1/obj_jaula_1.yy",},},
-    {"id":{"name":"spr_fondo_escenario_12","path":"sprites/spr_fondo_escenario_12/spr_fondo_escenario_12.yy",},},
+    {"id":{"name":"spr_sub_nivel_1","path":"sprites/spr_sub_nivel_1/spr_sub_nivel_1.yy",},},
     {"id":{"name":"obj_cuy","path":"objects/obj_cuy/obj_cuy.yy",},},
     {"id":{"name":"obj_monticulo_tut","path":"objects/obj_monticulo_tut/obj_monticulo_tut.yy",},},
     {"id":{"name":"obj_serpiente_animada_1","path":"objects/obj_serpiente_animada_1/obj_serpiente_animada_1.yy",},},

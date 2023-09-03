@@ -243,7 +243,7 @@
     {"name":"spr_perro_dig","order":6,"path":"sprites/spr_perro_dig/spr_perro_dig.yy",},
     {"name":"spr_jaula_2","order":2,"path":"sprites/spr_jaula_2/spr_jaula_2.yy",},
     {"name":"obj_jaula_1","order":4,"path":"objects/obj_jaula_1/obj_jaula_1.yy",},
-    {"name":"spr_fondo_escenario_12","order":2,"path":"sprites/spr_fondo_escenario_12/spr_fondo_escenario_12.yy",},
+    {"name":"spr_sub_nivel_1","order":2,"path":"sprites/spr_sub_nivel_1/spr_sub_nivel_1.yy",},
     {"name":"obj_cuy","order":2,"path":"objects/obj_cuy/obj_cuy.yy",},
     {"name":"obj_monticulo_tut","order":1,"path":"objects/obj_monticulo_tut/obj_monticulo_tut.yy",},
     {"name":"obj_serpiente_animada_1","order":11,"path":"objects/obj_serpiente_animada_1/obj_serpiente_animada_1.yy",},
