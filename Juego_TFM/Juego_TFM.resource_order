@@ -119,6 +119,7 @@
     {"name":"spr_llave","order":1,"path":"sprites/spr_llave/spr_llave.yy",},
     {"name":"spr_ratona_viendo_3","order":5,"path":"sprites/spr_ratona_viendo_3/spr_ratona_viendo_3.yy",},
     {"name":"snd_teletransporte","order":17,"path":"sounds/snd_teletransporte/snd_teletransporte.yy",},
+    {"name":"MenuNivel","order":13,"path":"rooms/MenuNivel/MenuNivel.yy",},
     {"name":"spr_pantalla_perder","order":5,"path":"sprites/spr_pantalla_perder/spr_pantalla_perder.yy",},
     {"name":"obj_boton_jaula_sn1_1","order":4,"path":"objects/obj_boton_jaula_sn1_1/obj_boton_jaula_sn1_1.yy",},
     {"name":"scr_verificar_control","order":1,"path":"scripts/scr_verificar_control/scr_verificar_control.yy",},

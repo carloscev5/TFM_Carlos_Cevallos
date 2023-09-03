@@ -148,6 +148,7 @@
     {"id":{"name":"spr_llave","path":"sprites/spr_llave/spr_llave.yy",},},
     {"id":{"name":"spr_ratona_viendo_3","path":"sprites/spr_ratona_viendo_3/spr_ratona_viendo_3.yy",},},
     {"id":{"name":"snd_teletransporte","path":"sounds/snd_teletransporte/snd_teletransporte.yy",},},
+    {"id":{"name":"MenuNivel","path":"rooms/MenuNivel/MenuNivel.yy",},},
     {"id":{"name":"spr_pantalla_perder","path":"sprites/spr_pantalla_perder/spr_pantalla_perder.yy",},},
     {"id":{"name":"obj_boton_jaula_sn1_1","path":"objects/obj_boton_jaula_sn1_1/obj_boton_jaula_sn1_1.yy",},},
     {"id":{"name":"scr_verificar_control","path":"scripts/scr_verificar_control/scr_verificar_control.yy",},},
@@ -314,6 +315,7 @@
     {"roomId":{"name":"Nivel3","path":"rooms/Nivel3/Nivel3.yy",},},
     {"roomId":{"name":"PantallaFinJuego","path":"rooms/PantallaFinJuego/PantallaFinJuego.yy",},},
     {"roomId":{"name":"PantallaControles","path":"rooms/PantallaControles/PantallaControles.yy",},},
+    {"roomId":{"name":"MenuNivel","path":"rooms/MenuNivel/MenuNivel.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

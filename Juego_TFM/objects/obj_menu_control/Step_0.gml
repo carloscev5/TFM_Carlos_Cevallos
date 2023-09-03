@@ -20,18 +20,11 @@ if(arr){
 }
 
 if(sal){
-
 	if(posicion == 0){
 		room_goto(SelectorPartida);
-		
-		/*if(file_exists("partida1.ini")){
-			file_delete("partida1.ini")	
-		}*/
 	}else if(posicion == 1){
 		room_goto(PantallaControles);
 	}else{
 		game_end();	
 	}
-	
-	
 }

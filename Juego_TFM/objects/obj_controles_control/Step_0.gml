@@ -6,6 +6,7 @@ reg = keyboard_check_pressed(global.run) or gamepad_button_check_pressed(global.
 
 if(reg){
 	if(global.esta_nivel){
+		room_goto(MenuNivel)
 	}else{
 		room_goto(Main);
 	}

@@ -7,7 +7,7 @@ if keyboard_check_pressed(ord("C"))
 
 if keyboard_check_pressed(vk_escape)
 {
-    room_goto(Main);
+    room_goto(MenuNivel);
 }
 
 

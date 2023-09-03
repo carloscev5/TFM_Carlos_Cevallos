@@ -7,7 +7,7 @@ if keyboard_check_pressed(ord("C"))
 
 if keyboard_check_pressed(vk_escape)
 {
-    room_goto(Main);
+    room_goto(MenuNivel);
 }
 
 if keyboard_check_pressed(ord("R")) or gamepad_button_check_pressed(global.gp, gp_select){
