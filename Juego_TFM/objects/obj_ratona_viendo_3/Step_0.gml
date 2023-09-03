@@ -1,6 +1,5 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-
 if((x_ant != obj_ratona_3.x-74 || y_ant != obj_ratona_3.y-56) && cont_cambio ==0){
 	cont_cambio = 5;
 }

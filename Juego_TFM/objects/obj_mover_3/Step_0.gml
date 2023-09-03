@@ -1,6 +1,5 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-
 #region Gravedad
 if place_free(x, y+1){
 	gravity = 2;
