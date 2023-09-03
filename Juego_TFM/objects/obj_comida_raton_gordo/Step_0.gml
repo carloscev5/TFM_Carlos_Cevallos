@@ -11,3 +11,9 @@ if(tiempo_vida > 100){
 }else{
 	image_index=2;	
 }
+
+if(global.posicion_raton_gordo == 2){
+	visible = false;	
+}else{
+	visible = true;	
+}
