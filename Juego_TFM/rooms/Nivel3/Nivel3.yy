@@ -77,6 +77,7 @@
     {"name":"inst_5DBD9DA3","path":"rooms/Nivel3/Nivel3.yy",},
     {"name":"inst_6892293D","path":"rooms/Nivel3/Nivel3.yy",},
     {"name":"inst_79F5E1CE","path":"rooms/Nivel3/Nivel3.yy",},
+    {"name":"inst_2CC60283","path":"rooms/Nivel3/Nivel3.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -95,6 +96,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5DBD9DA3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_cristal_animado_3","path":"objects/obj_cristal_animado_3/obj_cristal_animado_3.yy",},"properties":[],"rotation":0.0,"scaleX":0.784,"scaleY":1.044,"x":2776.0,"y":-70.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6892293D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_mover_3","path":"objects/obj_mover_3/obj_mover_3.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2688.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_79F5E1CE","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_hueco_1","path":"objects/obj_hueco_1/obj_hueco_1.yy",},"properties":[],"rotation":0.0,"scaleX":1.25,"scaleY":1.5,"x":2112.0,"y":960.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2CC60283","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_particulas_3","path":"objects/obj_particulas_3/obj_particulas_3.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1540.0,"y":-506.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Characters","depth":300,"effectEnabled":true,"effectType":null,"gridX":4,"gridY":4,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_8255D5D_3_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_perro","path":"objects/obj_perro/obj_perro.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":284.0,"y":148.0,},
