@@ -38,7 +38,7 @@ if(!eventos_actualizados){
 		obj_ratona_3.x = 1344;
 		obj_ratona_3.y = 1920;
 		obj_ratona_3.puede_moverse = false;
-		instance_create_layer(1248, 1920, "Objects", obj_llave_3);
+		instance_create_layer(1248, 1920, "Arte", obj_llave_3);
 	}
 	if(ds_list_find_index(global.objetivos, 9) >= 0){
 		global.tiene_llave = true;

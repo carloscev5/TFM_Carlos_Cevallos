@@ -5,7 +5,7 @@ if(puede_moverse){
 		x = 1344;
 		y = 1920;
 		puede_moverse = false;
-		instance_create_layer(1248, 1920, "Objects", obj_llave_3);
+		instance_create_layer(1248, 1920, "Arte", obj_llave_3);
 		ds_list_add(global.objetivos, 8);	
 		scr_guardar_partida();
 	}else{
